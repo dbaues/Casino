@@ -92,7 +92,7 @@
             this.bank.AutoSize = true;
             this.bank.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bank.ForeColor = System.Drawing.Color.DarkRed;
-            this.bank.Location = new System.Drawing.Point(358, 35);
+            this.bank.Location = new System.Drawing.Point(352, 37);
             this.bank.Name = "bank";
             this.bank.Size = new System.Drawing.Size(54, 23);
             this.bank.TabIndex = 4;

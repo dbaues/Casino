@@ -1,13 +1,13 @@
 <Project>
   <Name>Virtual Casino</Name>
   <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
-    <Name>Untitled</Name>
+    <Name>Complete Diagram</Name>
     <Language>CSharp</Language>
     <Entities>
       <Entity type="Class">
         <Name>BlackJack</Name>
         <Access>Public</Access>
-        <Location left="289" top="304" />
+        <Location left="141" top="367" />
         <Size width="162" height="519" />
         <Collapsed>True</Collapsed>
         <Member type="Field">Deck D</Member>
@@ -41,7 +41,7 @@
       <Entity type="Class">
         <Name>Card</Name>
         <Access>Public</Access>
-        <Location left="98" top="518" />
+        <Location left="141" top="532" />
         <Size width="162" height="197" />
         <Collapsed>True</Collapsed>
         <Member type="Field">int value</Member>
@@ -56,7 +56,7 @@
       <Entity type="Class">
         <Name>Deck</Name>
         <Access>Public</Access>
-        <Location left="187" top="418" />
+        <Location left="233" top="448" />
         <Size width="162" height="179" />
         <Collapsed>True</Collapsed>
         <Member type="Field">Card[] cards</Member>
@@ -70,7 +70,7 @@
       <Entity type="Class">
         <Name>Hand</Name>
         <Access>Public</Access>
-        <Location left="10" top="418" />
+        <Location left="50" top="448" />
         <Size width="162" height="213" />
         <Collapsed>True</Collapsed>
         <Member type="Field">List&lt;Card&gt; hand</Member>
@@ -86,7 +86,7 @@
       <Entity type="Class">
         <Name>VirtualCasinoLogin</Name>
         <Access>Public</Access>
-        <Location left="576" top="209" />
+        <Location left="560" top="246" />
         <Size width="162" height="349" />
         <Collapsed>True</Collapsed>
         <Member type="Field">string username</Member>
@@ -110,7 +110,7 @@
       <Entity type="Class">
         <Name>User</Name>
         <Access>Public</Access>
-        <Location left="429" top="582" />
+        <Location left="377" top="367" />
         <Size width="162" height="264" />
         <Collapsed>True</Collapsed>
         <Member type="Field">int _bank</Member>
@@ -129,13 +129,14 @@
       <Entity type="Class">
         <Name>MainMenu</Name>
         <Access>Public</Access>
-        <Location left="511" top="304" />
-        <Size width="162" height="315" />
+        <Location left="183" top="246" />
+        <Size width="162" height="349" />
         <Collapsed>True</Collapsed>
         <Member type="Field">private BlackJack bj</Member>
         <Member type="Field">private VirtualCasinoLogin vcl</Member>
-        <Member type="Field">private MainMenuLog log</Member>
+        <Member type="Field">private Roulette r</Member>
         <Member type="Field">public User user</Member>
+        <Member type="Field">private MainMenuLog log</Member>
         <Member type="Field">public bool loggedIn</Member>
         <Member type="Constructor">public MainMenu()</Member>
         <Member type="Method">private void Login()</Member>
@@ -143,6 +144,7 @@
         <Member type="Method">public void Save()</Member>
         <Member type="Method">private void BlankSlateProtocol()</Member>
         <Member type="Method">private void blackjack_Click(object sender, EventArgs e)</Member>
+        <Member type="Method">private void roulette_Click(object sender, EventArgs e)</Member>
         <Member type="Method">private void login_Click(object sender, EventArgs e)</Member>
         <Member type="Method">private void log_button_Click(object sender, EventArgs e)</Member>
         <Member type="Method">private void MainMenu_FormClosed(object sender, EventArgs e)</Member>
@@ -151,7 +153,7 @@
       <Entity type="Class">
         <Name>Log</Name>
         <Access>Public</Access>
-        <Location left="210" top="111" />
+        <Location left="954" top="112" />
         <Size width="162" height="145" />
         <Collapsed>True</Collapsed>
         <Member type="Method">protected void AppendLogFile(string s)</Member>
@@ -163,7 +165,7 @@
       <Entity type="Class">
         <Name>SignInLog</Name>
         <Access>Public</Access>
-        <Location left="799" top="111" />
+        <Location left="560" top="92" />
         <Size width="162" height="128" />
         <Collapsed>True</Collapsed>
         <Member type="Property">protected override string Type { get; }</Member>
@@ -174,7 +176,7 @@
       <Entity type="Class">
         <Name>BlackJackLog</Name>
         <Access>Public</Access>
-        <Location left="10" top="243" />
+        <Location left="10" top="306" />
         <Size width="162" height="151" />
         <Collapsed>True</Collapsed>
         <Member type="Field">public static int PLAYER_WIN = 1</Member>
@@ -186,7 +188,7 @@
       <Entity type="Class">
         <Name>MainMenuLog</Name>
         <Access>Public</Access>
-        <Location left="732" top="304" />
+        <Location left="183" top="92" />
         <Size width="162" height="128" />
         <Collapsed>True</Collapsed>
         <Member type="Property">protected override string Type { get; }</Member>
@@ -196,7 +198,7 @@
       <Entity type="Class">
         <Name>Form</Name>
         <Access>Public</Access>
-        <Location left="397" top="186" />
+        <Location left="377" top="192" />
         <Size width="162" height="216" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
@@ -204,7 +206,7 @@
       <Entity type="Class">
         <Name>Roulette</Name>
         <Access>Public</Access>
-        <Location left="397" top="367" />
+        <Location left="632" top="367" />
         <Size width="162" height="451" />
         <Collapsed>True</Collapsed>
         <Member type="Field">public List&lt;Bet&gt; bets</Member>
@@ -234,26 +236,55 @@
       <Entity type="Class">
         <Name>RouletteBoard</Name>
         <Access>Public</Access>
-        <Location left="529" top="485" />
-        <Size width="162" height="77" />
+        <Location left="860" top="367" />
+        <Size width="162" height="485" />
         <Collapsed>True</Collapsed>
+        <Member type="Field">private Roulette r</Member>
+        <Member type="Field">private RouletteBoardLog log</Member>
+        <Member type="Field">public static int REDS = 37</Member>
+        <Member type="Field">public static int BLACKS = 38</Member>
+        <Member type="Field">public static int EVENS = 39</Member>
+        <Member type="Field">public static int ODDS = 40</Member>
+        <Member type="Field">public static int FIRST_HALF = 41</Member>
+        <Member type="Field">public static int SECOND_HALF = 42</Member>
+        <Member type="Field">public static int FIRST_12 = 43</Member>
+        <Member type="Field">public static int SECOND_12 = 44</Member>
+        <Member type="Field">public static int THIRD_12 = 45</Member>
+        <Member type="Field">public static int TOP_ROW = 46</Member>
+        <Member type="Field">public static int MID_ROW = 47</Member>
+        <Member type="Field">public static int BOT_ROW = 48</Member>
+        <Member type="Field">public static int _00 = 49</Member>
+        <Member type="Field">public static int _0 = 0</Member>
+        <Member type="Constructor">public RouletteBoard()</Member>
+        <Member type="Method">private void PlaceBet(int location)</Member>
+        <Member type="Method">private void UpdateText()</Member>
+        <Member type="Method">private void viewBets_Click(object sender, EventArgs e)</Member>
+        <Member type="Method">private void history_Click(object sender, EventArgs e)</Member>
+        <Member type="Method">private void clear_Click(object sender, EventArgs e)</Member>
+        <Member type="Method">private void RouletteBoard_Shown(object sender, EventArgs e)</Member>
+        <Member type="Method">private void RouletteBoard_FormClosed(object sender, FormClosedEventArgs e)</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
         <Name>Bet</Name>
         <Access>Public</Access>
-        <Location left="330" top="485" />
-        <Size width="162" height="128" />
-        <Collapsed>False</Collapsed>
+        <Location left="750" top="494" />
+        <Size width="162" height="213" />
+        <Collapsed>True</Collapsed>
         <Member type="Field">int bet</Member>
         <Member type="Field">int type</Member>
-        <Member type="Property">public int NewProperty { get; set; }</Member>
+        <Member type="Property">public int Amount { get; }</Member>
+        <Member type="Property">public int BetType { get; }</Member>
+        <Member type="Constructor">public Bet(int bet, int type)</Member>
+        <Member type="Method">public bool CheckWin(int result)</Member>
+        <Member type="Method">public static int WinMultiplier(int type)</Member>
+        <Member type="Method">public override string ToString()</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
         <Name>GameLog</Name>
         <Access>Public</Access>
-        <Location left="10" top="71" />
+        <Location left="479" top="567" />
         <Size width="162" height="145" />
         <Collapsed>True</Collapsed>
         <Member type="Property">protected override string Type { get; }</Member>
@@ -265,7 +296,7 @@
       <Entity type="Class">
         <Name>MenuLog</Name>
         <Access>Public</Access>
-        <Location left="10" top="111" />
+        <Location left="377" top="34" />
         <Size width="162" height="128" />
         <Collapsed>True</Collapsed>
         <Member type="Property">protected override string Type { get; }</Member>
@@ -276,7 +307,7 @@
       <Entity type="Class">
         <Name>RouletteLog</Name>
         <Access>Public</Access>
-        <Location left="10" top="155" />
+        <Location left="515" top="466" />
         <Size width="162" height="383" />
         <Collapsed>True</Collapsed>
         <Member type="Field">public static string PLAYER_WIN = "Player has won ${0}"</Member>
@@ -302,7 +333,7 @@
       <Entity type="Class">
         <Name>RouletteBoardLog</Name>
         <Access>Public</Access>
-        <Location left="10" top="197" />
+        <Location left="860" top="224" />
         <Size width="162" height="94" />
         <Collapsed>True</Collapsed>
         <Member type="Property">protected override string Type { get; }</Member>
@@ -310,107 +341,816 @@
       </Entity>
     </Entities>
     <Relationships>
-      <Relationship type="Generalization" first="8" second="7">
+      <Relationship type="Generalization" first="4" second="11">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>590</X>
+          <Y>198</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>520</X>
+          <Y>166</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="12" second="11">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>685</X>
+          <Y>342</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>503</X>
+          <Y>262</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="13" second="11">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>942</X>
+          <Y>334</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>520</X>
+          <Y>262</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="6" second="11">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>320</X>
+          <Y>209</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>391</X>
+          <Y>167</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="0" second="11">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>401</X>
+          <Y>263</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Dependency" first="0" second="1">
+        <Label>
+        </Label>
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
       </Relationship>
-      <Relationship type="Generalization" first="10" second="8">
+      <Relationship type="Association" first="0" second="3">
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>177</X>
+          <Y>438</Y>
+        </BendPoint>
+        <Direction>Bidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
       </Relationship>
-      <Relationship type="Association" first="3" second="1">
+      <Relationship type="Association" first="0" second="2">
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>273</X>
+          <Y>437</Y>
+        </BendPoint>
         <Direction>Bidirectional</Direction>
         <AssociationType>Aggregation</AssociationType>
       </Relationship>
       <Relationship type="Association" first="2" second="1">
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>272</X>
+          <Y>507</Y>
+        </BendPoint>
+        <Direction>Bidirectional</Direction>
+        <AssociationType>Composition</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="3" second="1">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>176</X>
+          <Y>507</Y>
+        </BendPoint>
+        <Direction>Bidirectional</Direction>
+        <AssociationType>Composition</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="12" second="13">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="12" second="14">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>718</X>
+          <Y>517</Y>
+        </BendPoint>
         <Direction>Bidirectional</Direction>
         <AssociationType>Aggregation</AssociationType>
       </Relationship>
-      <Relationship type="Generalization" first="4" second="11">
-        <StartOrientation>Vertical</StartOrientation>
-        <EndOrientation>Vertical</EndOrientation>
-      </Relationship>
-      <Relationship type="Association" first="0" second="2">
-        <StartOrientation>Vertical</StartOrientation>
-        <EndOrientation>Vertical</EndOrientation>
-        <Direction>Bidirectional</Direction>
-        <AssociationType>Aggregation</AssociationType>
-      </Relationship>
-      <Relationship type="Association" first="0" second="3">
-        <StartOrientation>Vertical</StartOrientation>
-        <EndOrientation>Vertical</EndOrientation>
-        <Direction>Bidirectional</Direction>
-        <AssociationType>Aggregation</AssociationType>
-      </Relationship>
-      <Relationship type="Association" first="6" second="0">
+      <Relationship type="Association" first="12" second="5">
         <StartOrientation>Horizontal</StartOrientation>
         <EndOrientation>Horizontal</EndOrientation>
         <Direction>Bidirectional</Direction>
         <AssociationType>Aggregation</AssociationType>
       </Relationship>
       <Relationship type="Association" first="6" second="4">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="0" second="5">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Bidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="12" second="14">
+        <Label>
+        </Label>
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
-        <Direction>Bidirectional</Direction>
-        <AssociationType>Composition</AssociationType>
+        <BendPoint relativeToStartShape="False">
+          <X>775</X>
+          <Y>469</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="13" second="14">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>881</X>
+          <Y>469</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
       </Relationship>
       <Relationship type="Association" first="6" second="5">
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>300</X>
+          <Y>318</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>393</X>
+          <Y>342</Y>
+        </BendPoint>
         <Direction>Bidirectional</Direction>
         <AssociationType>Aggregation</AssociationType>
       </Relationship>
-      <Relationship type="Association" first="0" second="5">
+      <Relationship type="Dependency" first="4" second="5">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>591</X>
+          <Y>317</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>521</X>
+          <Y>342</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="15" second="7">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>677</X>
+          <Y>590</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="16" second="7">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>589</X>
+          <Y>59</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="8" second="16">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>535</X>
+          <Y>116</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>515</X>
+          <Y>107</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="10" second="16">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>370</X>
+          <Y>114</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>401</X>
+          <Y>114</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Association" first="4" second="8">
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
         <Direction>Bidirectional</Direction>
         <AssociationType>Aggregation</AssociationType>
       </Relationship>
+      <Relationship type="Association" first="6" second="10">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Bidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+      </Relationship>
+      <Relationship type="Generalization" first="18" second="7">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>984</X>
+          <Y>182</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Association" first="13" second="18">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>977</X>
+          <Y>298</Y>
+        </BendPoint>
+        <Direction>Bidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+      </Relationship>
+      <Relationship type="Generalization" first="9" second="15">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>38</X>
+          <Y>383</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>440</X>
+          <Y>589</Y>
+        </BendPoint>
+      </Relationship>
       <Relationship type="Association" first="0" second="9">
         <StartOrientation>Horizontal</StartOrientation>
-        <EndOrientation>Horizontal</EndOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>105</X>
+          <Y>390</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>105</X>
+          <Y>376</Y>
+        </BendPoint>
         <Direction>Bidirectional</Direction>
         <AssociationType>Aggregation</AssociationType>
       </Relationship>
-      <Relationship type="Association" first="6" second="10">
+      <Relationship type="Generalization" first="17" second="15">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Association" first="12" second="17">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>655</X>
+          <Y>445</Y>
+        </BendPoint>
+        <Direction>Bidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="6" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>272</X>
+          <Y>340</Y>
+        </BendPoint>
+        <Direction>Bidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="6" second="12">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>328</X>
+          <Y>316</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>655</X>
+          <Y>316</Y>
+        </BendPoint>
+        <Direction>Bidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Log Heirarchy</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>RouletteBoardLog</Name>
+        <Access>Public</Access>
+        <Location left="325" top="184" />
+        <Size width="162" height="94" />
+        <Collapsed>True</Collapsed>
+        <Member type="Property">protected override string Type { get; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SignInLog</Name>
+        <Access>Public</Access>
+        <Location left="582" top="259" />
+        <Size width="162" height="128" />
+        <Collapsed>True</Collapsed>
+        <Member type="Property">protected override string Type { get; }</Member>
+        <Member type="Method">public void LogGuest()</Member>
+        <Member type="Method">public override void LogSignIn(string username)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>MainMenuLog</Name>
+        <Access>Public</Access>
+        <Location left="412" top="259" />
+        <Size width="162" height="111" />
+        <Collapsed>True</Collapsed>
+        <Member type="Property">protected override string Type { get; }</Member>
+        <Member type="Method">public void LogViewLog()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>BlackJackLog</Name>
+        <Access>Public</Access>
+        <Location left="239" top="259" />
+        <Size width="162" height="145" />
+        <Collapsed>True</Collapsed>
+        <Member type="Field">public static int PLAYER_WIN = 1</Member>
+        <Member type="Field">public static int DEALER_WIN = 2</Member>
+        <Member type="Field">public static int PUSH = 3</Member>
+        <Member type="Property">protected override string Type { get; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>RouletteLog</Name>
+        <Access>Public</Access>
+        <Location left="67" top="259" />
+        <Size width="162" height="383" />
+        <Collapsed>True</Collapsed>
+        <Member type="Field">public static string PLAYER_WIN = "Player has won ${0}"</Member>
+        <Member type="Field">public static string NO_WIN = "Player did not win"</Member>
+        <Member type="Field">public static string REDS = "Reds"</Member>
+        <Member type="Field">public static string BLACKS = "Blacks"</Member>
+        <Member type="Field">public static string EVENS = "Evens"</Member>
+        <Member type="Field">public static string ODDS = "Odds"</Member>
+        <Member type="Field">public static string FIRST_HALF = "1 through 18"</Member>
+        <Member type="Field">public static string SECOND_HALF = "19 through 36"</Member>
+        <Member type="Field">public static strng TOP_ROW = "the Top Row"</Member>
+        <Member type="Field">public static string MID_ROW = "the Middle Row"</Member>
+        <Member type="Field">public static string BOT_ROW = "the Bottom Row"</Member>
+        <Member type="Field">public static string FIRST_12 = "1 through 12"</Member>
+        <Member type="Field">public static string SECOND_12 = "13 thorugh 24"</Member>
+        <Member type="Field">public static string THIRD_12 = "25 through 36"</Member>
+        <Member type="Property">protected override string Type { get; }</Member>
+        <Member type="Method">public void LogResult(string result, int amount)</Member>
+        <Member type="Method">public void LogBet(int money, string on)</Member>
+        <Member type="Method">public void LogBet(int money, int on)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>MenuLog</Name>
+        <Access>Public</Access>
+        <Location left="499" top="158" />
+        <Size width="162" height="128" />
+        <Collapsed>True</Collapsed>
+        <Member type="Property">protected override string Type { get; }</Member>
+        <Member type="Method">public virtual void LogSignIn(string username)</Member>
+        <Member type="Method">public virtual void LogSignOut(string username)</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>GameLog</Name>
+        <Access>Public</Access>
+        <Location left="153" top="158" />
+        <Size width="162" height="145" />
+        <Collapsed>True</Collapsed>
+        <Member type="Property">protected override string Type { get; }</Member>
+        <Member type="Method">public void LogResult(string result)</Member>
+        <Member type="Method">public void LogBet(int money)</Member>
+        <Member type="Method">public void LogStart()</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Log</Name>
+        <Access>Public</Access>
+        <Location left="325" top="43" />
+        <Size width="162" height="145" />
+        <Collapsed>True</Collapsed>
+        <Member type="Method">protected void AppendLogFile(string s)</Member>
+        <Member type="Method">public void LogOpen()</Member>
+        <Member type="Method">public void LogOpen()</Member>
+        <Member type="Property">protected virtual string Type { get; }</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Generalization" first="4" second="6">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="3" second="6">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="1" second="5">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="2" second="5">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="6" second="7">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="5" second="7">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="0" second="7">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>BlackJack Elements</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>BlackJack</Name>
+        <Access>Public</Access>
+        <Location left="257" top="27" />
+        <Size width="162" height="519" />
+        <Collapsed>True</Collapsed>
+        <Member type="Field">Deck D</Member>
+        <Member type="Field">Hand Dealer</Member>
+        <Member type="Field">Hand Player</Member>
+        <Member type="Field">int DWins</Member>
+        <Member type="Field">int PWins</Member>
+        <Member type="Field">bool Stood</Member>
+        <Member type="Field">bool BetPlaced</Member>
+        <Member type="Field">int Money</Member>
+        <Member type="Field">int Bet</Member>
+        <Member type="Field">User user</Member>
+        <Member type="Field">BlackJackLog log</Member>
+        <Member type="Constructor">public BlackJack()</Member>
+        <Member type="Property">public User User { get; set; }</Member>
+        <Member type="Method">private void InitialDeal()</Member>
+        <Member type="Method">private void DrawCard(Hand H)</Member>
+        <Member type="Method">private void UpdateText()</Member>
+        <Member type="Method">private void CheckWin()</Member>
+        <Member type="Method">private void BlankSlateProtocol()</Member>
+        <Member type="Method">private void PlayerWin()</Member>
+        <Member type="Method">private void DealerWin()</Member>
+        <Member type="Method">private void Deal_Click(object sender, EventArgs e)</Member>
+        <Member type="Method">private void Hit_Click(object sender, EventArgs e)</Member>
+        <Member type="Method">private void Stand_Click(object sender, EventArgs e)</Member>
+        <Member type="Method">private void betBtn_Click(object sender, EventArgs e)</Member>
+        <Member type="Method">private void Form1_FormClosing(object sender, FormClosingEventArgs e)</Member>
+        <Member type="Method">private void BlackJack_Shown(object sender, EventArgs e)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Card</Name>
+        <Access>Public</Access>
+        <Location left="22" top="212" />
+        <Size width="162" height="196" />
+        <Collapsed>True</Collapsed>
+        <Member type="Field">int value</Member>
+        <Member type="Field">int ID</Member>
+        <Member type="Field">string suit</Member>
+        <Member type="Field">private char Char</Member>
+        <Member type="Field">static char[] symbol = { '♥', '♠', '♦', '♣' }</Member>
+        <Member type="Method">public string toString()</Member>
+        <Member type="Method">public string toSimpleString()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Deck</Name>
+        <Access>Public</Access>
+        <Location left="471" top="212" />
+        <Size width="162" height="179" />
+        <Collapsed>True</Collapsed>
+        <Member type="Field">Card[] cards</Member>
+        <Member type="Constructor">public Deck()</Member>
+        <Member type="Method">public void GetDeck()</Member>
+        <Member type="Method">public void Shuffle()</Member>
+        <Member type="Method">public void PrintDeck()</Member>
+        <Member type="Method">public Card GetTopCard()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Hand</Name>
+        <Access>Public</Access>
+        <Location left="318" top="279" />
+        <Size width="162" height="213" />
+        <Collapsed>True</Collapsed>
+        <Member type="Field">List&lt;Card&gt; hand</Member>
+        <Member type="Field">bool Dealer</Member>
+        <Member type="Field">private char D</Member>
+        <Member type="Constructor">public Hand(bool dealer)</Member>
+        <Member type="Method">public void AddCard(Card c)</Member>
+        <Member type="Method">public int GetCount()</Member>
+        <Member type="Method">public string GetHand()</Member>
+        <Member type="Method">private string GetHandEXP()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>User</Name>
+        <Access>Public</Access>
+        <Location left="197" top="163" />
+        <Size width="162" height="264" />
+        <Collapsed>True</Collapsed>
+        <Member type="Field">int _bank</Member>
+        <Member type="Field">string _username</Member>
+        <Member type="Field">string _password</Member>
+        <Member type="Field">DateTime _lastPlayed</Member>
+        <Member type="Field">private bool _admin</Member>
+        <Member type="Constructor">public User(string u, string p)</Member>
+        <Member type="Constructor">public User(string u, string p, int b, DateTime lp)</Member>
+        <Member type="Method">public string WriteUser()</Member>
+        <Member type="Method">public static User ReadUser(string s)</Member>
+        <Member type="Method">public decimal getWinPercentage()</Member>
+        <Member type="Method">public bool Login(string u, string p)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>BlackJackLog</Name>
+        <Access>Public</Access>
+        <Location left="471" top="27" />
+        <Size width="162" height="145" />
+        <Collapsed>True</Collapsed>
+        <Member type="Field">public static int PLAYER_WIN = 1</Member>
+        <Member type="Field">public static int DEALER_WIN = 2</Member>
+        <Member type="Field">public static int PUSH = 3</Member>
+        <Member type="Property">protected override string Type { get; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Dependency" first="0" second="1">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Association" first="0" second="2">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="0" second="4">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="0" second="5">
+        <Label>
+        </Label>
         <StartOrientation>Horizontal</StartOrientation>
         <EndOrientation>Horizontal</EndOrientation>
-        <Direction>Bidirectional</Direction>
+        <Direction>Unidirectional</Direction>
         <AssociationType>Aggregation</AssociationType>
       </Relationship>
-      <Relationship type="Association" first="4" second="8">
-        <StartOrientation>Horizontal</StartOrientation>
-        <EndOrientation>Horizontal</EndOrientation>
-        <Direction>Bidirectional</Direction>
+      <Relationship type="Association" first="0" second="3">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
         <AssociationType>Aggregation</AssociationType>
       </Relationship>
-      <Relationship type="Association" first="12" second="13">
+      <Relationship type="Association" first="2" second="1">
+        <Label>
+        </Label>
         <StartOrientation>Horizontal</StartOrientation>
         <EndOrientation>Horizontal</EndOrientation>
         <Direction>Unidirectional</Direction>
         <AssociationType>Composition</AssociationType>
       </Relationship>
-      <Relationship type="Generalization" first="0" second="11">
+      <Relationship type="Association" first="3" second="1">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Composition</AssociationType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Roulette Elements</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>RouletteBoard</Name>
+        <Access>Public</Access>
+        <Location left="424" top="33" />
+        <Size width="162" height="485" />
+        <Collapsed>True</Collapsed>
+        <Member type="Field">private Roulette r</Member>
+        <Member type="Field">private RouletteBoardLog log</Member>
+        <Member type="Field">public static int REDS = 37</Member>
+        <Member type="Field">public static int BLACKS = 38</Member>
+        <Member type="Field">public static int EVENS = 39</Member>
+        <Member type="Field">public static int ODDS = 40</Member>
+        <Member type="Field">public static int FIRST_HALF = 41</Member>
+        <Member type="Field">public static int SECOND_HALF = 42</Member>
+        <Member type="Field">public static int FIRST_12 = 43</Member>
+        <Member type="Field">public static int SECOND_12 = 44</Member>
+        <Member type="Field">public static int THIRD_12 = 45</Member>
+        <Member type="Field">public static int TOP_ROW = 46</Member>
+        <Member type="Field">public static int MID_ROW = 47</Member>
+        <Member type="Field">public static int BOT_ROW = 48</Member>
+        <Member type="Field">public static int _00 = 49</Member>
+        <Member type="Field">public static int _0 = 0</Member>
+        <Member type="Constructor">public RouletteBoard()</Member>
+        <Member type="Method">private void PlaceBet(int location)</Member>
+        <Member type="Method">private void UpdateText()</Member>
+        <Member type="Method">private void viewBets_Click(object sender, EventArgs e)</Member>
+        <Member type="Method">private void history_Click(object sender, EventArgs e)</Member>
+        <Member type="Method">private void clear_Click(object sender, EventArgs e)</Member>
+        <Member type="Method">private void RouletteBoard_Shown(object sender, EventArgs e)</Member>
+        <Member type="Method">private void RouletteBoard_FormClosed(object sender, FormClosedEventArgs e)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Bet</Name>
+        <Access>Public</Access>
+        <Location left="121" top="157" />
+        <Size width="162" height="213" />
+        <Collapsed>True</Collapsed>
+        <Member type="Field">int bet</Member>
+        <Member type="Field">int type</Member>
+        <Member type="Property">public int Amount { get; }</Member>
+        <Member type="Property">public int BetType { get; }</Member>
+        <Member type="Constructor">public Bet(int bet, int type)</Member>
+        <Member type="Method">public bool CheckWin(int result)</Member>
+        <Member type="Method">public static int WinMultiplier(int type)</Member>
+        <Member type="Method">public override string ToString()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Roulette</Name>
+        <Access>Public</Access>
+        <Location left="211" top="33" />
+        <Size width="162" height="451" />
+        <Collapsed>True</Collapsed>
+        <Member type="Field">public List&lt;Bet&gt; bets</Member>
+        <Member type="Field">public List&lt;int&gt; history</Member>
+        <Member type="Field">private RouletteLog log</Member>
+        <Member type="Field">private User _user</Member>
+        <Member type="Field">private int index</Member>
+        <Member type="Field">public static int _00 = 37</Member>
+        <Member type="Field">private static int[] Order</Member>
+        <Member type="Field">public static int[] REDS</Member>
+        <Member type="Field">public static int[] BLACKS</Member>
+        <Member type="Field">public static int[] TOP_ROW</Member>
+        <Member type="Field">public static int[] MID_ROW</Member>
+        <Member type="Field">public static int[] BOT_ROW</Member>
+        <Member type="Property">public User User { get; set; }</Member>
+        <Member type="Constructor">public Roulette()</Member>
+        <Member type="Method">private void placeBets_Click(object sender, EventArgs e)</Member>
+        <Member type="Method">private void spin_Click(object sender, EventArgs e)</Member>
+        <Member type="Method">private void Roulette_Shown(object sender, EventArgs e)</Member>
+        <Member type="Method">private void Roulette_FormClosed(object sender, EventArgs e)</Member>
+        <Member type="Method">public void AddBet(int money, int location)</Member>
+        <Member type="Method">private void BlankSlateProtocol()</Member>
+        <Member type="Method">public void UpdateText()</Member>
+        <Member type="Method">private void CheckWin(int result)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>User</Name>
+        <Access>Public</Access>
+        <Location left="296" top="157" />
+        <Size width="162" height="264" />
+        <Collapsed>True</Collapsed>
+        <Member type="Field">int _bank</Member>
+        <Member type="Field">string _username</Member>
+        <Member type="Field">string _password</Member>
+        <Member type="Field">DateTime _lastPlayed</Member>
+        <Member type="Field">private bool _admin</Member>
+        <Member type="Constructor">public User(string u, string p)</Member>
+        <Member type="Constructor">public User(string u, string p, int b, DateTime lp)</Member>
+        <Member type="Method">public string WriteUser()</Member>
+        <Member type="Method">public static User ReadUser(string s)</Member>
+        <Member type="Method">public decimal getWinPercentage()</Member>
+        <Member type="Method">public bool Login(string u, string p)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>RouletteLog</Name>
+        <Access>Public</Access>
+        <Location left="29" top="33" />
+        <Size width="162" height="383" />
+        <Collapsed>True</Collapsed>
+        <Member type="Field">public static string PLAYER_WIN = "Player has won ${0}"</Member>
+        <Member type="Field">public static string NO_WIN = "Player did not win"</Member>
+        <Member type="Field">public static string REDS = "Reds"</Member>
+        <Member type="Field">public static string BLACKS = "Blacks"</Member>
+        <Member type="Field">public static string EVENS = "Evens"</Member>
+        <Member type="Field">public static string ODDS = "Odds"</Member>
+        <Member type="Field">public static string FIRST_HALF = "1 through 18"</Member>
+        <Member type="Field">public static string SECOND_HALF = "19 through 36"</Member>
+        <Member type="Field">public static strng TOP_ROW = "the Top Row"</Member>
+        <Member type="Field">public static string MID_ROW = "the Middle Row"</Member>
+        <Member type="Field">public static string BOT_ROW = "the Bottom Row"</Member>
+        <Member type="Field">public static string FIRST_12 = "1 through 12"</Member>
+        <Member type="Field">public static string SECOND_12 = "13 thorugh 24"</Member>
+        <Member type="Field">public static string THIRD_12 = "25 through 36"</Member>
+        <Member type="Property">protected override string Type { get; }</Member>
+        <Member type="Method">public void LogResult(string result, int amount)</Member>
+        <Member type="Method">public void LogBet(int money, string on)</Member>
+        <Member type="Method">public void LogBet(int money, int on)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>RouletteBoardLog</Name>
+        <Access>Public</Access>
+        <Location left="609" top="33" />
+        <Size width="162" height="94" />
+        <Collapsed>True</Collapsed>
+        <Member type="Property">protected override string Type { get; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Association" first="2" second="1">
+        <Label>
+        </Label>
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
       </Relationship>
-      <Relationship type="Generalization" first="6" second="11">
+      <Relationship type="Association" first="2" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Composition</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="2" second="3">
+        <Label>
+        </Label>
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
       </Relationship>
-      <Relationship type="Generalization" first="12" second="11">
+      <Relationship type="Association" first="2" second="4">
+        <Label>
+        </Label>
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
       </Relationship>
-      <Relationship type="Generalization" first="13" second="11">
-        <StartOrientation>Vertical</StartOrientation>
-        <EndOrientation>Vertical</EndOrientation>
-      </Relationship>
-      <Relationship type="Association" first="12" second="14">
+      <Relationship type="Association" first="0" second="5">
         <Label>
         </Label>
         <StartOrientation>Vertical</StartOrientation>

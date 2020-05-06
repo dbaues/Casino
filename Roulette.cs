@@ -22,6 +22,7 @@ namespace Cards
         #region Fields
         public List<Bet> bets;
         public List<int> history;
+        public bool BoardOpen;
         private RouletteLog log;
         private User _user;
         private int index;
@@ -48,6 +49,7 @@ namespace Cards
             InitializeComponent();
             BlankSlateProtocol();
             log = new RouletteLog();
+            BoardOpen = false;
         }
         #endregion
 
@@ -59,7 +61,8 @@ namespace Cards
         /// <param name="e"></param>
         private void placeBets_Click(object sender, EventArgs e)
         {
-            new RouletteBoard(this).Show();
+            if(!BoardOpen)
+                new RouletteBoard(this).Show();
         }
 
         /// <summary>
