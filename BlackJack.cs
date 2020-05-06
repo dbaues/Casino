@@ -62,7 +62,12 @@ namespace Cards
         /// <param name="e"></param>
         private void Deal_Click(object sender, EventArgs e)
         {
-
+            if (BetPlaced)
+            {
+                InitialDeal();
+                log.LogStart();
+                Stood = false;
+            }
         }
 
         /// <summary>
@@ -115,11 +120,15 @@ namespace Cards
         {
             if (BetPlaced == false && user.Bank >= 1)
             {
+                // Gets the Bet amount.
+                try { Bet = int.Parse(BetOptions.Text); }
+                catch (Exception) { Bet = 1; }
+                // Default bet.
                 if (BetOptions.Text.Equals(""))
-                    BetOptions.Text = "1"; //Default Bet
-                if (int.Parse(BetOptions.Text) <= user.Bank)
+                    BetOptions.Text = "1"; 
+                // Subtracts Bet from bank and places the bet.
+                if (Bet <= user.Bank)
                 {
-                    Bet = int.Parse(BetOptions.Text);
                     user.Bank -= Bet;
                     log.LogBet(Bet);
                     BetPlaced = true;

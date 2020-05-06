@@ -392,6 +392,7 @@ namespace Cards
         /// <param name="e"></param>
         private void RouletteBoard_Shown(object sender, EventArgs e)
         {
+            this.r.BoardOpen = true;
             this.log.LogOpen();
         }
 
@@ -402,6 +403,7 @@ namespace Cards
         /// <param name="e"></param>
         private void RouletteBoard_FormClosed(object sender, FormClosedEventArgs e)
         {
+            this.r.BoardOpen = false;
             this.log.LogExit();
             this.r.UpdateText();
         }
