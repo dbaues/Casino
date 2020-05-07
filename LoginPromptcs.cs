@@ -192,20 +192,14 @@ namespace Cards
         /// <returns>The "active" User logged In.</returns>
         public User SaveNewUser()
         {
-            User tmp = null;
             using (StreamWriter sw = new StreamWriter(MainMenu.ACCOUNT_FILE))
             {
-                foreach (User u in accounts)
-                {
-                    if (u.Username.Equals(username))
-                    {
-                        tmp = u;
-                        continue;
-                    }
-                    sw.WriteLine(u.WriteUser());
-                }
+                var nonActiveUser = (from u in accounts 
+                                     where !u.Username.Equals(username) 
+                                     select u.WriteUser()).ToArray();
+                foreach(String s in nonActiveUser) { sw.WriteLine(s); }
             }
-            return tmp;
+            return (from u in accounts where u.Username.Equals(username) select u).First();
         }
         #endregion
     }
