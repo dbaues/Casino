@@ -80,10 +80,7 @@ namespace Cards
         private void login_Click(object sender, EventArgs e)
         {
             if (!loggedIn)
-            {
                 Login();
-                loggedIn = true;
-            }
             else
             {
                 Save();

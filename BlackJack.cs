@@ -147,9 +147,11 @@ namespace Cards
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        private void BlackJack_FormClosing(object sender, FormClosingEventArgs e)
         {
             log.LogExit();
+            e.Cancel = true;
+            this.Hide();
         }
 
         /// <summary>

@@ -135,26 +135,6 @@ namespace Cards
         }
 
         /// <summary>
-        /// Logs closing the Login menu.
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void VirtualCasinoLogin_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            if (loggedIn )
-            {
-                if (!guestAccount)
-                    vc.user = SaveNewUser();
-                else
-                    vc.user = new User("Player", "", 200);
-                vc.UpdateText();
-                log.LogSignIn(vc.user.Username);
-            }
-            log.LogExit();
-            vc.loggedIn = this.loggedIn;
-        }
-
-        /// <summary>
         /// Logs opening the Login menu.
         /// </summary>
         /// <param name="sender"></param>
@@ -162,6 +142,31 @@ namespace Cards
         private void VirtualCasinoLogin_Shown(object sender, EventArgs e)
         {
             log.LogOpen();
+        }
+
+        /// <summary>
+        /// Executes the Login menu procedure.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void VirtualCasinoLogin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            log.LogExit();
+            if (this.loggedIn)
+            {
+                if (!guestAccount)
+                    vc.user = SaveNewUser();
+                else
+                    vc.user = new User("Player", "", 200);
+                vc.loggedIn = this.loggedIn;
+                vc.UpdateText();
+                log.LogSignIn(vc.user.Username);
+            }
+            else
+            {
+                e.Cancel = true;
+                this.Hide();
+            }
         }
         #endregion
 

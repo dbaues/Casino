@@ -1059,3 +1059,129 @@
 5/6/2020 8:53:03 PM: Roulette result: Player did not win.
 5/6/2020 8:53:06 PM: Closed Roulette.
 5/6/2020 8:53:08 PM: Opened Main Menu.
+5/6/2020 9:09:28 PM: Opened Main Menu.
+5/6/2020 9:09:31 PM: Opened Sign In Menu.
+5/6/2020 9:09:31 PM: Signed in as Guest.
+5/6/2020 9:09:31 PM: Player has signed in.
+5/6/2020 9:09:32 PM: Closed Sign In Menu.
+5/6/2020 9:09:32 PM: Opened Black Jack.
+5/6/2020 9:09:35 PM: Opened Roulette.
+5/6/2020 9:09:44 PM: Closed Black Jack.
+5/6/2020 9:16:08 PM: Opened Main Menu.
+5/6/2020 9:16:10 PM: Opened Sign In Menu.
+5/6/2020 9:16:11 PM: Closed Sign In Menu.
+5/6/2020 9:47:47 PM: Opened Main Menu.
+5/6/2020 9:47:48 PM: Opened Sign In Menu.
+5/6/2020 9:47:53 PM: Closed Sign In Menu.
+5/6/2020 9:49:41 PM: Opened Main Menu.
+5/6/2020 9:49:42 PM: Opened Sign In Menu.
+5/6/2020 9:49:43 PM: Closed Sign In Menu.
+5/6/2020 9:49:45 PM: Closed Sign In Menu.
+5/6/2020 9:49:47 PM: Signed in as Guest.
+5/6/2020 9:49:47 PM: Closed Sign In Menu.
+5/6/2020 9:49:47 PM: Player has signed in.
+5/6/2020 9:49:55 PM: Opened Main Menu.
+5/6/2020 9:51:33 PM: Opened Main Menu.
+5/6/2020 9:51:35 PM: Opened Sign In Menu.
+5/6/2020 9:51:36 PM: Signed in as Guest.
+5/6/2020 9:51:36 PM: Closed Sign In Menu.
+5/6/2020 9:51:36 PM: Player has signed in.
+5/6/2020 9:51:38 PM: Opened Roulette.
+5/6/2020 9:51:40 PM: Closed Roulette.
+5/6/2020 9:51:43 PM: Opened Main Menu.
+5/6/2020 9:52:19 PM: Opened Main Menu.
+5/6/2020 9:52:20 PM: Opened Sign In Menu.
+5/6/2020 9:52:21 PM: Closed Sign In Menu.
+5/6/2020 9:52:24 PM: Signed in as Guest.
+5/6/2020 9:52:25 PM: Closed Sign In Menu.
+5/6/2020 9:52:25 PM: Player has signed in.
+5/6/2020 9:52:27 PM: Opened Sign In Menu.
+5/6/2020 9:52:28 PM: Closed Sign In Menu.
+5/6/2020 9:52:31 PM: Signed in as Guest.
+5/6/2020 9:52:31 PM: Closed Sign In Menu.
+5/6/2020 9:52:31 PM: Player has signed in.
+5/6/2020 9:52:32 PM: Opened Roulette.
+5/6/2020 9:52:34 PM: Opened Roulette Board.
+5/6/2020 9:52:38 PM: Player has placed a bet of $200
+5/6/2020 9:52:38 PM: Bet place on 00.
+5/6/2020 9:52:39 PM: Closed Roulette Board.
+5/6/2020 9:52:40 PM: Roulette has started.
+5/6/2020 9:55:06 PM: Opened Main Menu.
+5/6/2020 9:55:08 PM: Opened Sign In Menu.
+5/6/2020 9:55:11 PM: Signed in as Guest.
+5/6/2020 9:55:11 PM: Closed Sign In Menu.
+5/6/2020 9:55:11 PM: Player has signed in.
+5/6/2020 9:55:12 PM: Opened Roulette.
+5/6/2020 9:55:13 PM: Closed Roulette.
+5/6/2020 9:55:14 PM: Closed Roulette.
+5/6/2020 9:55:16 PM: Opened Sign In Menu.
+5/6/2020 9:55:23 PM: New account created, ddb
+5/6/2020 9:55:23 PM: Closed Sign In Menu.
+5/6/2020 9:55:23 PM: ddb has signed in.
+5/6/2020 9:55:24 PM: Opened Roulette.
+5/6/2020 9:55:27 PM: Opened Roulette Board.
+5/6/2020 9:55:32 PM: Player has placed a bet of $10
+5/6/2020 9:55:32 PM: Bet place on 00.
+5/6/2020 9:55:33 PM: Closed Roulette Board.
+5/6/2020 9:55:34 PM: Roulette has started.
+5/6/2020 9:55:46 PM: Roulette result: Player did not win.
+5/6/2020 9:56:41 PM: Opened Black Jack.
+5/6/2020 9:56:44 PM: Player has placed a bet of $1
+5/6/2020 9:56:45 PM: Black Jack has started.
+5/6/2020 9:56:45 PM: Black Jack has started.
+5/6/2020 9:56:46 PM: Black Jack result: Dealer has won.
+5/6/2020 9:56:48 PM: Player has placed a bet of $1
+5/6/2020 9:56:48 PM: Black Jack has started.
+5/6/2020 9:56:48 PM: Black Jack has started.
+5/6/2020 9:56:52 PM: Black Jack result: Player has won.
+5/6/2020 9:56:54 PM: Player has placed a bet of $1
+5/6/2020 9:56:55 PM: Black Jack has started.
+5/6/2020 9:56:55 PM: Black Jack has started.
+5/6/2020 9:56:58 PM: Black Jack result: Player has won.
+5/6/2020 9:57:01 PM: Closed Black Jack.
+5/6/2020 9:57:02 PM: Opened Roulette Board.
+5/6/2020 9:57:05 PM: Player has placed a bet of $1
+5/6/2020 9:57:05 PM: Bet place on 3.
+5/6/2020 9:57:07 PM: Player has placed a bet of $1
+5/6/2020 9:57:07 PM: Bet place on 10.
+5/6/2020 9:57:08 PM: Player has placed a bet of $1
+5/6/2020 9:57:08 PM: Bet place on 23.
+5/6/2020 9:57:09 PM: Player has placed a bet of $1
+5/6/2020 9:57:09 PM: Bet place on 28.
+5/6/2020 9:57:10 PM: Closed Roulette Board.
+5/6/2020 9:57:11 PM: Roulette has started.
+5/6/2020 9:57:25 PM: Roulette result: Player did not win.
+5/6/2020 9:57:29 PM: Player has placed a bet of $1
+5/6/2020 9:57:29 PM: Black Jack has started.
+5/6/2020 9:57:29 PM: Black Jack has started.
+5/6/2020 9:57:33 PM: Black Jack result: Dealer has won.
+5/6/2020 9:57:39 PM: Player has placed a bet of $1
+5/6/2020 9:57:40 PM: Black Jack result: Dealer has won.
+5/6/2020 9:57:40 PM: Black Jack has started.
+5/6/2020 9:57:40 PM: Black Jack has started.
+5/6/2020 9:57:50 PM: Player has placed a bet of $1
+5/6/2020 9:57:51 PM: Black Jack has started.
+5/6/2020 9:57:51 PM: Black Jack has started.
+5/6/2020 9:57:52 PM: Black Jack result: Dealer has won.
+5/6/2020 9:57:54 PM: Closed Black Jack.
+5/6/2020 9:57:55 PM: Closed Roulette.
+5/6/2020 9:57:58 PM: ddb has signed out.
+5/6/2020 9:58:22 PM: Opened Main Menu.
+5/6/2020 9:58:58 PM: Opened Main Menu.
+5/6/2020 9:58:59 PM: Opened Sign In Menu.
+5/6/2020 9:59:00 PM: Signed in as Guest.
+5/6/2020 9:59:00 PM: Closed Sign In Menu.
+5/6/2020 9:59:00 PM: Player has signed in.
+5/6/2020 9:59:01 PM: Opened Roulette.
+5/6/2020 9:59:03 PM: Opened Roulette Board.
+5/6/2020 9:59:07 PM: Player has placed a bet of $25
+5/6/2020 9:59:07 PM: Bet place on Blacks.
+5/6/2020 9:59:07 PM: Player has placed a bet of $25
+5/6/2020 9:59:07 PM: Bet place on 13 through 24.
+5/6/2020 9:59:09 PM: Player has placed a bet of $25
+5/6/2020 9:59:09 PM: Bet place on the Middle Row.
+5/6/2020 9:59:12 PM: Closed Roulette Board.
+5/6/2020 9:59:13 PM: Roulette has started.
+5/6/2020 9:59:24 PM: Roulette result: Player has won $50.
+5/6/2020 9:59:38 PM: Closed Roulette.
+5/6/2020 9:59:40 PM: Opened Main Menu.

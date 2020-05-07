@@ -117,9 +117,11 @@ namespace Cards
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void Roulette_FormClosed(object sender, FormClosedEventArgs e)
+        private void Roulette_FormClosing(object sender, FormClosingEventArgs e)
         {
             log.LogExit();
+            e.Cancel = true;
+            this.Hide();
         }
         #endregion
 
