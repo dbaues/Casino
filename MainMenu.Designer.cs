@@ -35,6 +35,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.log_button = new System.Windows.Forms.Button();
             this.roulette = new System.Windows.Forms.Button();
+            this.checkFunds = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // blackjack
@@ -88,7 +89,7 @@
             // 
             this.log_button.Location = new System.Drawing.Point(12, 191);
             this.log_button.Name = "log_button";
-            this.log_button.Size = new System.Drawing.Size(106, 31);
+            this.log_button.Size = new System.Drawing.Size(100, 32);
             this.log_button.TabIndex = 4;
             this.log_button.Text = "View Log";
             this.log_button.UseVisualStyleBackColor = true;
@@ -107,12 +108,23 @@
             this.roulette.UseVisualStyleBackColor = false;
             this.roulette.Click += new System.EventHandler(this.roulette_Click);
             // 
+            // checkFunds
+            // 
+            this.checkFunds.Location = new System.Drawing.Point(163, 191);
+            this.checkFunds.Name = "checkFunds";
+            this.checkFunds.Size = new System.Drawing.Size(100, 32);
+            this.checkFunds.TabIndex = 6;
+            this.checkFunds.Text = "View Funds";
+            this.checkFunds.UseVisualStyleBackColor = true;
+            this.checkFunds.Click += new System.EventHandler(this.checkFunds_Click);
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(275, 231);
+            this.Controls.Add(this.checkFunds);
             this.Controls.Add(this.roulette);
             this.Controls.Add(this.log_button);
             this.Controls.Add(this.label1);
@@ -138,5 +150,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button log_button;
         private System.Windows.Forms.Button roulette;
+        private System.Windows.Forms.Button checkFunds;
     }
 }

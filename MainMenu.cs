@@ -101,7 +101,7 @@ namespace Cards
             if((loggedIn) && (user.AdminPrivileges))
             { 
                 List<String> logFile = new List<String>();
-                using (StreamReader sr = new StreamReader("Log.txt"))
+                using (StreamReader sr = new StreamReader(MainMenu.LOG_FILE))
                 {
                     string line;
                     while ((line = sr.ReadLine()) != null)
@@ -125,6 +125,17 @@ namespace Cards
                 }
                 MessageBox.Show(tmp, "Current Runtime Log");
             }
+        }
+
+        /// <summary>
+        /// Shows the current players current funds.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void checkFunds_Click(object sender, EventArgs e)
+        {
+            if (loggedIn)
+                MessageBox.Show(String.Format("${0}", user.Bank.ToString()), String.Format("{0}'s Funds", user.Username));
         }
 
         /// <summary>

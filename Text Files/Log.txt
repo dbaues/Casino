@@ -1295,3 +1295,102 @@
 5/7/2020 11:50:55 AM: Roulette result: Player did not win.
 5/7/2020 11:51:57 AM: Closed Roulette.
 5/7/2020 11:52:01 AM: @#!%6^ H has signed out.
+5/7/2020 12:07:56 PM: Opened Main Menu.
+5/7/2020 12:07:58 PM: Opened Sign In Menu.
+5/7/2020 12:08:11 PM: New account created,       ab     c
+5/7/2020 12:08:11 PM: Closed Sign In Menu.
+5/7/2020 12:08:11 PM:       ab     c has signed in.
+5/7/2020 12:08:13 PM:       ab     c has signed out.
+5/7/2020 12:09:58 PM: Opened Main Menu.
+5/7/2020 12:10:01 PM: Opened Sign In Menu.
+5/7/2020 12:10:18 PM: New account created, abcd
+5/7/2020 12:10:18 PM: Closed Sign In Menu.
+5/7/2020 12:10:18 PM: abcd has signed in.
+5/7/2020 12:10:20 PM: abcd has signed out.
+5/7/2020 12:10:21 PM: Opened Sign In Menu.
+5/7/2020 12:10:34 PM: Closed Sign In Menu.
+5/7/2020 12:10:34 PM: abcd has signed in.
+5/7/2020 12:10:45 PM: abcd has signed out.
+5/7/2020 12:10:49 PM: Opened Sign In Menu.
+5/7/2020 12:10:56 PM: Closed Sign In Menu.
+5/7/2020 12:10:56 PM: db has signed in.
+5/7/2020 12:10:58 PM: db has signed out.
+5/7/2020 12:11:24 PM: Opened Sign In Menu.
+5/7/2020 12:11:30 PM: Closed Sign In Menu.
+5/7/2020 12:11:30 PM: admin has signed in.
+5/7/2020 12:11:30 PM: Admin privileges granted.
+5/7/2020 12:11:31 PM: View log file.
+5/7/2020 12:11:43 PM: View log file.
+5/7/2020 12:11:49 PM: View log file.
+5/7/2020 12:11:53 PM: admin has signed out.
+5/7/2020 12:11:53 PM: Opened Main Menu.
+5/7/2020 12:18:31 PM: Opened Main Menu.
+5/7/2020 12:18:34 PM: Opened Main Menu.
+5/7/2020 12:18:53 PM: Opened Main Menu.
+5/7/2020 12:18:57 PM: Opened Sign In Menu.
+5/7/2020 12:18:58 PM: Signed in as Guest.
+5/7/2020 12:18:58 PM: Closed Sign In Menu.
+5/7/2020 12:18:58 PM: Player has signed in.
+5/7/2020 12:19:03 PM: Opened Sign In Menu.
+5/7/2020 12:19:10 PM: Closed Sign In Menu.
+5/7/2020 12:19:10 PM: admin has signed in.
+5/7/2020 12:19:10 PM: Admin privileges granted.
+5/7/2020 12:19:15 PM: View log file.
+5/7/2020 12:19:50 PM: admin has signed out.
+5/7/2020 12:19:53 PM: Opened Main Menu.
+5/7/2020 12:21:45 PM: Opened Main Menu.
+5/7/2020 12:21:47 PM: Opened Sign In Menu.
+5/7/2020 12:21:48 PM: Signed in as Guest.
+5/7/2020 12:21:48 PM: Player has signed in.
+5/7/2020 12:21:48 PM: Closed Sign In Menu.
+5/7/2020 12:21:49 PM: Opened Roulette.
+5/7/2020 12:21:51 PM: Opened Roulette Board.
+5/7/2020 12:21:52 PM: Player has placed a bet of $1
+5/7/2020 12:21:52 PM: Bet place on 6.
+5/7/2020 12:21:52 PM: Player has placed a bet of $1
+5/7/2020 12:21:52 PM: Bet place on 29.
+5/7/2020 12:21:54 PM: Player has placed a bet of $1
+5/7/2020 12:21:54 PM: Bet place on 26.
+5/7/2020 12:21:54 PM: Player has placed a bet of $1
+5/7/2020 12:21:54 PM: Bet place on 32.
+5/7/2020 12:21:55 PM: Player has placed a bet of $1
+5/7/2020 12:21:55 PM: Bet place on 1 through 12.
+5/7/2020 12:21:56 PM: Player has placed a bet of $1
+5/7/2020 12:21:56 PM: Bet place on Reds.
+5/7/2020 12:21:56 PM: Player has placed a bet of $1
+5/7/2020 12:21:56 PM: Bet place on Reds.
+5/7/2020 12:21:57 PM: Player has placed a bet of $1
+5/7/2020 12:21:57 PM: Bet place on Blacks.
+5/7/2020 12:21:57 PM: Player has placed a bet of $1
+5/7/2020 12:21:57 PM: Bet place on 25 through 36.
+5/7/2020 12:21:58 PM: Player has placed a bet of $1
+5/7/2020 12:21:58 PM: Bet place on Odds.
+5/7/2020 12:22:00 PM: Closed Roulette Board.
+5/7/2020 12:22:01 PM: Roulette has started.
+5/7/2020 12:22:14 PM: Roulette result: Player has won $4.
+5/7/2020 12:23:08 PM: Closed Roulette.
+5/7/2020 12:23:12 PM: Opened Sign In Menu.
+5/7/2020 12:23:17 PM: admin has signed in.
+5/7/2020 12:23:17 PM: Admin privileges granted.
+5/7/2020 12:23:17 PM: Closed Sign In Menu.
+5/7/2020 12:23:19 PM: View log file.
+5/7/2020 12:24:00 PM: View log file.
+5/7/2020 12:24:15 PM: admin has signed out.
+5/7/2020 12:24:18 PM: Opened Main Menu.
+5/7/2020 12:55:51 PM: Opened Main Menu.
+5/7/2020 12:55:52 PM: Opened Sign In Menu.
+5/7/2020 12:55:54 PM: Signed in as Guest.
+5/7/2020 12:55:54 PM: Player has signed in.
+5/7/2020 12:55:54 PM: Closed Sign In Menu.
+5/7/2020 12:55:56 PM: Opened Sign In Menu.
+5/7/2020 12:56:02 PM: db has signed in.
+5/7/2020 12:56:02 PM: Closed Sign In Menu.
+5/7/2020 12:56:03 PM: db has signed out.
+5/7/2020 12:56:04 PM: Opened Sign In Menu.
+5/7/2020 12:56:16 PM: Closed Sign In Menu.
+5/7/2020 12:56:25 PM: admin has signed in.
+5/7/2020 12:56:25 PM: Admin privileges granted.
+5/7/2020 12:56:25 PM: Closed Sign In Menu.
+5/7/2020 12:56:31 PM: View log file.
+5/7/2020 12:56:48 PM: admin has signed out.
+5/7/2020 12:56:48 PM: Opened Main Menu.
