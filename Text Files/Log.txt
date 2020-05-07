@@ -1,0 +1,1061 @@
+5/3/2020 9:38:11 PM: Open Main Menu Form.
+5/3/2020 9:38:13 PM: Open Signin Form.
+5/3/2020 9:38:23 PM: dbaues has logged in.
+5/3/2020 9:38:23 PM: Exit Signin Form.
+5/3/2020 9:38:28 PM: dbaues has logged out.
+5/3/2020 9:38:30 PM: Open Signin Form.
+5/3/2020 9:38:32 PM: Signed in as Guest.
+5/3/2020 9:38:32 PM: Player has logged in.
+5/3/2020 9:38:32 PM: Player has logged in.
+5/3/2020 9:38:32 PM: Exit Signin Form.
+5/3/2020 9:45:13 PM: Open Main Menu Form.
+5/3/2020 9:45:20 PM: Exit Main Menu Form.
+5/3/2020 9:47:34 PM: Open Main Menu Form.
+5/3/2020 9:47:35 PM: View log file.
+5/3/2020 9:47:54 PM: Exit Main Menu Form.
+5/3/2020 9:53:49 PM: Open Main Menu Form.
+5/3/2020 9:53:51 PM: View log file.
+5/3/2020 9:53:57 PM: Open Signin Form.
+5/3/2020 9:53:59 PM: Signed in as Guest.
+5/3/2020 9:53:59 PM: Player has logged in.
+5/3/2020 9:53:59 PM: Exit Signin Form.
+5/3/2020 9:54:01 PM: View log file.
+5/3/2020 9:54:12 PM: Exit Main Menu Form.
+5/3/2020 9:55:51 PM: Open Main Menu Form.
+5/3/2020 9:55:53 PM: Open Signin Form.
+5/3/2020 9:55:54 PM: New account created, 
+5/3/2020 9:56:17 PM: Open Main Menu Form.
+5/3/2020 9:56:18 PM: Open Signin Form.
+5/3/2020 9:56:25 PM: New account created, asdf
+5/3/2020 9:56:25 PM: asdf has logged in.
+5/3/2020 9:56:25 PM: Exit Signin Form.
+5/3/2020 9:56:28 PM: View log file.
+5/3/2020 9:56:44 PM: asdf has logged out.
+5/3/2020 9:56:45 PM: View log file.
+5/3/2020 9:56:51 PM: Exit Main Menu Form.
+5/4/2020 3:36:17 PM: Open Main Menu Form.
+5/4/2020 3:36:19 PM: Open Signin Form.
+5/4/2020 3:36:27 PM: test has logged in.
+5/4/2020 3:36:27 PM: Exit Signin Form.
+5/4/2020 3:36:43 PM: test has logged out.
+5/4/2020 3:36:44 PM: Open Signin Form.
+5/4/2020 3:36:45 PM: Signed in as Guest.
+5/4/2020 3:36:45 PM: Player has logged in.
+5/4/2020 3:36:45 PM: Exit Signin Form.
+5/4/2020 3:37:10 PM: View log file.
+5/4/2020 3:37:35 PM: Exit Main Menu Form.
+5/4/2020 4:00:43 PM: Open Main Menu Form.
+5/4/2020 4:00:44 PM: Open Signin Form.
+5/4/2020 4:00:50 PM: admin has logged in.
+5/4/2020 4:00:50 PM: Exit Signin Form.
+5/4/2020 4:00:52 PM: BlackJack opened.
+5/4/2020 4:00:56 PM: Player has place a bet of $50
+5/4/2020 4:00:57 PM: Black Jack Game Started.
+5/4/2020 4:00:59 PM: BlackJack Game Result: Player has won.
+5/4/2020 4:01:00 PM: Player has place a bet of $50
+5/4/2020 4:01:01 PM: Black Jack Game Started.
+5/4/2020 4:01:03 PM: BlackJack Game Result: Dealer has won.
+5/4/2020 4:01:04 PM: Player has place a bet of $50
+5/4/2020 4:01:04 PM: Black Jack Game Started.
+5/4/2020 4:01:05 PM: BlackJack Game Result: Dealer has won.
+5/4/2020 4:01:06 PM: Player has place a bet of $50
+5/4/2020 4:01:07 PM: Black Jack Game Started.
+5/4/2020 4:01:08 PM: BlackJack Game Result: Dealer has won.
+5/4/2020 4:01:09 PM: Player has place a bet of $50
+5/4/2020 4:01:09 PM: Black Jack Game Started.
+5/4/2020 4:01:12 PM: Player has place a bet of $50
+5/4/2020 4:01:15 PM: BlackJack Game Result: Push
+5/4/2020 4:01:16 PM: Black Jack Game Started.
+5/4/2020 4:01:19 PM: BlackJack Game Result: Dealer has won.
+5/4/2020 4:01:20 PM: Player has place a bet of $50
+5/4/2020 4:01:21 PM: Black Jack Game Started.
+5/4/2020 4:01:22 PM: BlackJack Game Result: Dealer has won.
+5/4/2020 4:01:23 PM: Player has place a bet of $50
+5/4/2020 4:01:24 PM: Black Jack Game Started.
+5/4/2020 4:01:25 PM: BlackJack Game Result: Player has won.
+5/4/2020 4:01:27 PM: Exit BlackJack.
+5/4/2020 4:01:28 PM: View log file.
+5/4/2020 4:02:15 PM: admin has logged out.
+5/4/2020 4:02:16 PM: Open Signin Form.
+5/4/2020 4:02:23 PM: New account created, db
+5/4/2020 4:02:23 PM: db has logged in.
+5/4/2020 4:02:23 PM: Exit Signin Form.
+5/4/2020 4:02:24 PM: BlackJack opened.
+5/4/2020 4:02:25 PM: Player has place a bet of $1
+5/4/2020 4:02:26 PM: BlackJack Game Result: Player has won.
+5/4/2020 4:02:26 PM: Black Jack Game Started.
+5/4/2020 4:02:28 PM: Player has place a bet of $1
+5/4/2020 4:02:28 PM: Black Jack Game Started.
+5/4/2020 4:02:29 PM: BlackJack Game Result: Dealer has won.
+5/4/2020 4:02:33 PM: Player has place a bet of $25
+5/4/2020 4:02:33 PM: Black Jack Game Started.
+5/4/2020 4:02:35 PM: BlackJack Game Result: Player has won.
+5/4/2020 4:02:37 PM: Exit BlackJack.
+5/4/2020 4:02:38 PM: db has logged out.
+5/4/2020 4:02:39 PM: Open Signin Form.
+5/4/2020 4:02:45 PM: admin has logged in.
+5/4/2020 4:02:45 PM: Exit Signin Form.
+5/4/2020 4:02:47 PM: View log file.
+5/4/2020 4:03:24 PM: admin has logged out.
+5/4/2020 4:03:25 PM: Open Signin Form.
+5/4/2020 4:03:27 PM: Signed in as Guest.
+5/4/2020 4:03:27 PM: Player has logged in.
+5/4/2020 4:03:27 PM: Exit Signin Form.
+5/4/2020 4:03:30 PM: BlackJack opened.
+5/4/2020 4:03:34 PM: Player has place a bet of $50
+5/4/2020 4:03:35 PM: Black Jack Game Started.
+5/4/2020 4:03:36 PM: BlackJack Game Result: Dealer has won.
+5/4/2020 4:03:41 PM: Player has place a bet of $50
+5/4/2020 4:03:42 PM: Black Jack Game Started.
+5/4/2020 4:03:43 PM: BlackJack Game Result: Dealer has won.
+5/4/2020 4:03:47 PM: Player has place a bet of $50
+5/4/2020 4:03:48 PM: Black Jack Game Started.
+5/4/2020 4:03:51 PM: BlackJack Game Result: Dealer has won.
+5/4/2020 4:03:53 PM: Player has place a bet of $50
+5/4/2020 4:03:54 PM: Black Jack Game Started.
+5/4/2020 4:04:03 PM: BlackJack Game Result: Push
+5/4/2020 4:04:06 PM: Exit BlackJack.
+5/4/2020 4:04:09 PM: Open Signin Form.
+5/4/2020 4:04:17 PM: admin has logged in.
+5/4/2020 4:04:17 PM: Exit Signin Form.
+5/4/2020 4:04:18 PM: View log file.
+5/4/2020 4:06:13 PM: Open Main Menu Form.
+5/4/2020 4:06:15 PM: Open Signin Form.
+5/4/2020 4:06:28 PM: Signed in as Guest.
+5/4/2020 4:06:28 PM: Player has logged in.
+5/4/2020 4:06:28 PM: Exit Signin Form.
+5/4/2020 4:06:30 PM: BlackJack opened.
+5/4/2020 4:06:31 PM: Exit BlackJack.
+5/4/2020 4:06:32 PM: Exit Main Menu Form.
+5/4/2020 4:11:26 PM: Open Main Menu Form.
+5/4/2020 4:11:30 PM: Open Signin Form.
+5/4/2020 4:11:37 PM: admin has logged in.
+5/4/2020 4:11:37 PM: Exit Signin Form.
+5/4/2020 4:13:00 PM: Open Main Menu Form.
+5/4/2020 4:13:02 PM: Open Signin Form.
+5/4/2020 4:13:07 PM: Signed in as Guest.
+5/4/2020 4:13:07 PM: Player has logged in.
+5/4/2020 4:13:07 PM: Exit Signin Form.
+5/4/2020 4:13:11 PM: Exit Main Menu Form.
+5/4/2020 5:08:43 PM: Open Main Menu Form.
+5/4/2020 5:08:44 PM: Open Signin Form.
+5/4/2020 5:09:11 PM: New account created, dbaues
+5/4/2020 5:09:11 PM: dbaues has logged in.
+5/4/2020 5:09:11 PM: Exit Signin Form.
+5/4/2020 5:09:12 PM: BlackJack opened.
+5/4/2020 5:09:17 PM: Player has place a bet of $50
+5/4/2020 5:09:18 PM: BlackJack Game Result: Dealer has won.
+5/4/2020 5:09:18 PM: Black Jack Game Started.
+5/4/2020 5:09:20 PM: Player has place a bet of $50
+5/4/2020 5:09:20 PM: Black Jack Game Started.
+5/4/2020 5:09:23 PM: BlackJack Game Result: Player has won.
+5/4/2020 5:09:24 PM: Player has place a bet of $50
+5/4/2020 5:09:25 PM: Black Jack Game Started.
+5/4/2020 5:09:26 PM: BlackJack Game Result: Dealer has won.
+5/4/2020 5:09:27 PM: Player has place a bet of $50
+5/4/2020 5:09:28 PM: Black Jack Game Started.
+5/4/2020 5:09:29 PM: BlackJack Game Result: Player has won.
+5/4/2020 5:09:31 PM: Exit BlackJack.
+5/4/2020 5:09:33 PM: dbaues has logged out.
+5/4/2020 5:09:34 PM: Open Signin Form.
+5/4/2020 5:09:41 PM: admin has logged in.
+5/4/2020 5:09:41 PM: Exit Signin Form.
+5/4/2020 5:11:15 PM: Open Main Menu Form.
+5/4/2020 5:11:16 PM: Open Signin Form.
+5/4/2020 5:11:25 PM: admin has logged in.
+5/4/2020 5:11:25 PM: Exit Signin Form.
+5/4/2020 5:14:13 PM: Open Main Menu Form.
+5/4/2020 5:14:15 PM: Open Signin Form.
+5/4/2020 5:14:22 PM: admin has logged in.
+5/4/2020 5:14:22 PM: Exit Signin Form.
+5/4/2020 5:14:24 PM: View log file.
+5/4/2020 5:15:02 PM: admin has logged out.
+5/4/2020 5:15:05 PM: Open Signin Form.
+5/4/2020 5:15:12 PM: dbaues has logged in.
+5/4/2020 5:15:12 PM: Exit Signin Form.
+5/4/2020 5:15:14 PM: BlackJack opened.
+5/4/2020 5:15:15 PM: Player has place a bet of $1
+5/4/2020 5:15:16 PM: Black Jack Game Started.
+5/4/2020 5:15:17 PM: BlackJack Game Result: Dealer has won.
+5/4/2020 5:15:18 PM: Player has place a bet of $1
+5/4/2020 5:15:19 PM: Black Jack Game Started.
+5/4/2020 5:15:19 PM: BlackJack Game Result: Dealer has won.
+5/4/2020 5:15:21 PM: Player has place a bet of $1
+5/4/2020 5:15:21 PM: Black Jack Game Started.
+5/4/2020 5:15:23 PM: BlackJack Game Result: Dealer has won.
+5/4/2020 5:15:24 PM: Player has place a bet of $1
+5/4/2020 5:15:24 PM: Black Jack Game Started.
+5/4/2020 5:15:24 PM: BlackJack Game Result: Dealer has won.
+5/4/2020 5:15:26 PM: Player has place a bet of $1
+5/4/2020 5:15:26 PM: Black Jack Game Started.
+5/4/2020 5:15:29 PM: BlackJack Game Result: Dealer has won.
+5/4/2020 5:15:33 PM: Player has place a bet of $5
+5/4/2020 5:15:33 PM: Black Jack Game Started.
+5/4/2020 5:15:34 PM: BlackJack Game Result: Dealer has won.
+5/4/2020 5:15:34 PM: Player has place a bet of $5
+5/4/2020 5:15:35 PM: BlackJack Game Result: Dealer has won.
+5/4/2020 5:15:35 PM: Black Jack Game Started.
+5/4/2020 5:15:37 PM: BlackJack Game Result: Dealer has won.
+5/4/2020 5:15:38 PM: Player has place a bet of $5
+5/4/2020 5:15:39 PM: BlackJack Game Result: Player has won.
+5/4/2020 5:15:39 PM: Black Jack Game Started.
+5/4/2020 5:15:42 PM: Exit BlackJack.
+5/4/2020 5:15:45 PM: dbaues has logged out.
+5/4/2020 5:15:47 PM: Open Signin Form.
+5/4/2020 5:15:53 PM: admin has logged in.
+5/4/2020 5:15:53 PM: Exit Signin Form.
+5/4/2020 5:15:53 PM: View log file.
+5/4/2020 5:16:38 PM: admin has logged out.
+5/4/2020 5:16:39 PM: Exit Main Menu Form.
+5/4/2020 5:53:05 PM: Open Main Menu Form.
+5/4/2020 5:53:07 PM: Exit Main Menu Form.
+5/4/2020 9:24:00 PM: Open Main Menu Form.
+5/4/2020 9:24:21 PM: Exit Main Menu Form.
+5/4/2020 9:24:58 PM: Open Main Menu Form.
+5/4/2020 9:25:39 PM: Exit Main Menu Form.
+5/4/2020 9:31:05 PM: Open Main Menu Form.
+5/4/2020 9:31:18 PM: Exit Main Menu Form.
+5/4/2020 9:52:44 PM: Open Main Menu Form.
+5/4/2020 9:52:48 PM: Exit Main Menu Form.
+5/4/2020 9:53:05 PM: Open Main Menu Form.
+5/4/2020 9:58:03 PM: Open Main Menu Form.
+5/4/2020 10:03:36 PM: Open Main Menu Form.
+5/4/2020 10:08:00 PM: Open Main Menu Form.
+5/4/2020 10:08:20 PM: Exit Main Menu Form.
+5/4/2020 10:08:28 PM: Open Main Menu Form.
+5/4/2020 10:08:46 PM: Exit Main Menu Form.
+5/4/2020 10:11:03 PM: Open Main Menu Form.
+5/4/2020 10:11:15 PM: Exit Main Menu Form.
+5/4/2020 10:11:26 PM: Open Main Menu Form.
+5/4/2020 10:11:53 PM: Exit Main Menu Form.
+5/4/2020 10:12:06 PM: Open Main Menu Form.
+5/4/2020 10:12:10 PM: Exit Main Menu Form.
+5/4/2020 10:12:19 PM: Open Main Menu Form.
+5/4/2020 10:12:25 PM: Exit Main Menu Form.
+5/4/2020 10:12:45 PM: Open Main Menu Form.
+5/4/2020 10:13:11 PM: Exit Main Menu Form.
+5/4/2020 10:14:16 PM: Open Main Menu Form.
+5/4/2020 10:15:18 PM: Exit Main Menu Form.
+5/4/2020 10:22:31 PM: Open Main Menu Form.
+5/4/2020 10:22:57 PM: Exit Main Menu Form.
+5/4/2020 10:23:13 PM: Open Main Menu Form.
+5/4/2020 10:23:34 PM: Open Main Menu Form.
+5/4/2020 10:23:43 PM: Exit Main Menu Form.
+5/4/2020 10:26:57 PM: Open Main Menu Form.
+5/4/2020 10:27:17 PM: Exit Main Menu Form.
+5/4/2020 10:29:05 PM: Open Main Menu Form.
+5/4/2020 10:29:24 PM: Exit Main Menu Form.
+5/4/2020 10:38:20 PM: Open Main Menu Form.
+5/4/2020 10:38:25 PM: Exit Main Menu Form.
+5/4/2020 10:43:14 PM: Open Main Menu Form.
+5/4/2020 10:43:21 PM: Exit Main Menu Form.
+5/4/2020 10:44:28 PM: Open Main Menu Form.
+5/4/2020 10:44:39 PM: Exit Main Menu Form.
+5/4/2020 10:44:50 PM: Open Main Menu Form.
+5/4/2020 10:45:19 PM: Open Main Menu Form.
+5/4/2020 10:45:28 PM: Exit Main Menu Form.
+5/4/2020 10:47:29 PM: Open Main Menu Form.
+5/4/2020 10:47:39 PM: Exit Main Menu Form.
+5/4/2020 10:58:33 PM: Open Main Menu Form.
+5/4/2020 10:58:39 PM: Exit Main Menu Form.
+5/4/2020 10:59:11 PM: Open Main Menu Form.
+5/4/2020 10:59:18 PM: Exit Main Menu Form.
+5/4/2020 10:59:44 PM: Open Main Menu Form.
+5/4/2020 11:00:43 PM: Open Main Menu Form.
+5/4/2020 11:01:00 PM: Exit Main Menu Form.
+5/5/2020 1:07:11 PM: Open Main Menu Form.
+5/5/2020 1:07:15 PM: Exit Main Menu Form.
+5/5/2020 1:16:15 PM: Open Main Menu Form.
+5/5/2020 1:16:17 PM: Open Signin Form.
+5/5/2020 1:16:21 PM: Signed in as Guest.
+5/5/2020 1:16:21 PM: Player has logged in.
+5/5/2020 1:16:21 PM: Exit Signin Form.
+5/5/2020 1:25:13 PM: Open Main Menu Form.
+5/5/2020 1:25:15 PM: Open Signin Form.
+5/5/2020 1:25:15 PM: Signed in as Guest.
+5/5/2020 1:25:15 PM: Player has logged in.
+5/5/2020 1:25:15 PM: Exit Signin Form.
+5/5/2020 1:25:38 PM: Open Main Menu Form.
+5/5/2020 1:25:39 PM: Open Signin Form.
+5/5/2020 1:25:40 PM: Signed in as Guest.
+5/5/2020 1:25:40 PM: Player has logged in.
+5/5/2020 1:25:40 PM: Exit Signin Form.
+5/5/2020 1:26:30 PM: Exit Main Menu Form.
+5/5/2020 1:28:10 PM: Open Main Menu Form.
+5/5/2020 1:28:11 PM: Open Signin Form.
+5/5/2020 1:28:12 PM: Signed in as Guest.
+5/5/2020 1:28:12 PM: Player has logged in.
+5/5/2020 1:28:12 PM: Exit Signin Form.
+5/5/2020 1:28:20 PM: Exit Main Menu Form.
+5/5/2020 1:32:30 PM: Open Main Menu Form.
+5/5/2020 1:32:32 PM: Open Signin Form.
+5/5/2020 1:32:33 PM: Signed in as Guest.
+5/5/2020 1:32:33 PM: Player has logged in.
+5/5/2020 1:32:33 PM: Exit Signin Form.
+5/5/2020 1:32:57 PM: Exit Main Menu Form.
+5/5/2020 1:33:19 PM: Open Main Menu Form.
+5/5/2020 1:33:21 PM: Open Signin Form.
+5/5/2020 1:33:22 PM: Signed in as Guest.
+5/5/2020 1:33:22 PM: Player has logged in.
+5/5/2020 1:33:22 PM: Exit Signin Form.
+5/5/2020 1:33:51 PM: Exit Main Menu Form.
+5/5/2020 1:35:49 PM: Open Main Menu Form.
+5/5/2020 1:35:50 PM: Exit Main Menu Form.
+5/5/2020 1:36:21 PM: Open Main Menu Form.
+5/5/2020 1:36:25 PM: Open Signin Form.
+5/5/2020 1:36:27 PM: Signed in as Guest.
+5/5/2020 1:36:27 PM: Player has logged in.
+5/5/2020 1:36:27 PM: Exit Signin Form.
+5/5/2020 1:37:42 PM: Open Main Menu Form.
+5/5/2020 1:37:44 PM: Open Signin Form.
+5/5/2020 1:37:45 PM: Signed in as Guest.
+5/5/2020 1:37:45 PM: Player has logged in.
+5/5/2020 1:37:45 PM: Exit Signin Form.
+5/5/2020 1:38:40 PM: Exit Main Menu Form.
+5/5/2020 1:57:32 PM: Open Main Menu Form.
+5/5/2020 1:57:33 PM: Open Signin Form.
+5/5/2020 1:57:36 PM: Signed in as Guest.
+5/5/2020 1:57:36 PM: Player has logged in.
+5/5/2020 1:57:36 PM: Exit Signin Form.
+5/5/2020 1:57:45 PM: Exit Main Menu Form.
+5/5/2020 1:57:59 PM: Open Main Menu Form.
+5/5/2020 1:58:01 PM: Open Signin Form.
+5/5/2020 1:58:02 PM: Signed in as Guest.
+5/5/2020 1:58:02 PM: Player has logged in.
+5/5/2020 1:58:02 PM: Exit Signin Form.
+5/5/2020 2:22:07 PM: Open Main Menu Form.
+5/5/2020 2:22:08 PM: Open Signin Form.
+5/5/2020 2:22:09 PM: Signed in as Guest.
+5/5/2020 2:22:09 PM: Player has logged in.
+5/5/2020 2:22:09 PM: Exit Signin Form.
+5/5/2020 2:22:32 PM: Exit Main Menu Form.
+5/5/2020 2:23:18 PM: Open Main Menu Form.
+5/5/2020 2:23:19 PM: Open Signin Form.
+5/5/2020 2:23:20 PM: Signed in as Guest.
+5/5/2020 2:23:20 PM: Player has logged in.
+5/5/2020 2:23:20 PM: Exit Signin Form.
+5/5/2020 2:24:12 PM: Exit Main Menu Form.
+5/5/2020 2:27:03 PM: Open Main Menu Form.
+5/5/2020 2:27:04 PM: Open Signin Form.
+5/5/2020 2:27:05 PM: Signed in as Guest.
+5/5/2020 2:27:05 PM: Player has logged in.
+5/5/2020 2:27:05 PM: Exit Signin Form.
+5/5/2020 3:24:45 PM: Open Main Menu Form.
+5/5/2020 3:24:48 PM: Open Signin Form.
+5/5/2020 3:24:49 PM: Signed in as Guest.
+5/5/2020 3:24:49 PM: Player has logged in.
+5/5/2020 3:24:49 PM: Exit Signin Form.
+5/5/2020 3:25:07 PM: Exit Main Menu Form.
+5/5/2020 3:45:52 PM: Open Main Menu Form.
+5/5/2020 3:45:54 PM: Open Signin Form.
+5/5/2020 3:45:55 PM: Signed in as Guest.
+5/5/2020 3:45:55 PM: Player has logged in.
+5/5/2020 3:45:55 PM: Exit Signin Form.
+5/5/2020 3:46:19 PM: Open Main Menu Form.
+5/5/2020 3:46:20 PM: Open Signin Form.
+5/5/2020 3:46:21 PM: Signed in as Guest.
+5/5/2020 3:46:21 PM: Player has logged in.
+5/5/2020 3:46:21 PM: Exit Signin Form.
+5/5/2020 3:47:18 PM: Exit Main Menu Form.
+5/5/2020 3:48:44 PM: Open Main Menu Form.
+5/5/2020 3:48:50 PM: Open Signin Form.
+5/5/2020 3:48:51 PM: Signed in as Guest.
+5/5/2020 3:48:51 PM: Player has logged in.
+5/5/2020 3:48:51 PM: Exit Signin Form.
+5/5/2020 3:57:07 PM: Open Main Menu Form.
+5/5/2020 3:57:09 PM: Open Signin Form.
+5/5/2020 3:57:10 PM: Signed in as Guest.
+5/5/2020 3:57:10 PM: Player has logged in.
+5/5/2020 3:57:10 PM: Exit Signin Form.
+5/5/2020 3:58:40 PM: Open Main Menu Form.
+5/5/2020 3:58:41 PM: Open Signin Form.
+5/5/2020 3:58:42 PM: Signed in as Guest.
+5/5/2020 3:58:42 PM: Player has logged in.
+5/5/2020 3:58:42 PM: Exit Signin Form.
+5/5/2020 4:08:54 PM: Open Main Menu Form.
+5/5/2020 4:08:56 PM: Open Signin Form.
+5/5/2020 4:08:57 PM: Signed in as Guest.
+5/5/2020 4:08:57 PM: Player has logged in.
+5/5/2020 4:08:57 PM: Exit Signin Form.
+5/5/2020 4:09:40 PM: Exit Main Menu Form.
+5/5/2020 4:14:35 PM: Open Main Menu Form.
+5/5/2020 4:14:37 PM: Open Signin Form.
+5/5/2020 4:14:38 PM: Signed in as Guest.
+5/5/2020 4:14:38 PM: Player has logged in.
+5/5/2020 4:14:38 PM: Exit Signin Form.
+5/5/2020 4:16:22 PM: Exit Main Menu Form.
+5/5/2020 4:16:44 PM: Open Main Menu Form.
+5/5/2020 4:16:45 PM: Open Signin Form.
+5/5/2020 4:16:46 PM: Signed in as Guest.
+5/5/2020 4:16:46 PM: Player has logged in.
+5/5/2020 4:16:46 PM: Exit Signin Form.
+5/5/2020 4:17:27 PM: Exit Main Menu Form.
+5/5/2020 4:22:14 PM: Open Main Menu Form.
+5/5/2020 4:22:15 PM: Open Signin Form.
+5/5/2020 4:22:16 PM: Signed in as Guest.
+5/5/2020 4:22:16 PM: Player has logged in.
+5/5/2020 4:22:16 PM: Exit Signin Form.
+5/5/2020 4:23:08 PM: Open Main Menu Form.
+5/5/2020 4:23:09 PM: Open Signin Form.
+5/5/2020 4:23:10 PM: Signed in as Guest.
+5/5/2020 4:23:10 PM: Player has logged in.
+5/5/2020 4:23:10 PM: Exit Signin Form.
+5/5/2020 4:23:46 PM: Exit Main Menu Form.
+5/5/2020 4:25:03 PM: Open Main Menu Form.
+5/5/2020 4:25:06 PM: Exit Main Menu Form.
+5/5/2020 4:25:25 PM: Open Main Menu Form.
+5/5/2020 4:25:26 PM: Open Signin Form.
+5/5/2020 4:25:27 PM: Signed in as Guest.
+5/5/2020 4:25:27 PM: Player has logged in.
+5/5/2020 4:25:27 PM: Exit Signin Form.
+5/5/2020 4:30:13 PM: Exit Main Menu Form.
+5/5/2020 4:30:46 PM: Open Main Menu Form.
+5/5/2020 4:30:48 PM: Open Signin Form.
+5/5/2020 4:30:49 PM: Signed in as Guest.
+5/5/2020 4:30:49 PM: Player has logged in.
+5/5/2020 4:30:49 PM: Exit Signin Form.
+5/5/2020 4:31:06 PM: Exit Main Menu Form.
+5/5/2020 4:31:15 PM: Open Main Menu Form.
+5/5/2020 4:31:16 PM: Open Signin Form.
+5/5/2020 4:31:17 PM: Signed in as Guest.
+5/5/2020 4:31:17 PM: Player has logged in.
+5/5/2020 4:31:17 PM: Exit Signin Form.
+5/5/2020 4:31:30 PM: Exit Main Menu Form.
+5/5/2020 4:32:21 PM: Open Main Menu Form.
+5/5/2020 4:32:23 PM: Open Signin Form.
+5/5/2020 4:32:24 PM: Signed in as Guest.
+5/5/2020 4:32:24 PM: Player has logged in.
+5/5/2020 4:32:24 PM: Exit Signin Form.
+5/5/2020 4:32:54 PM: Open Main Menu Form.
+5/5/2020 4:32:55 PM: Open Signin Form.
+5/5/2020 4:32:56 PM: Signed in as Guest.
+5/5/2020 4:32:56 PM: Player has logged in.
+5/5/2020 4:32:56 PM: Exit Signin Form.
+5/5/2020 4:34:09 PM: Exit Main Menu Form.
+5/5/2020 4:38:50 PM: Open Main Menu Form.
+5/5/2020 4:38:52 PM: Open Signin Form.
+5/5/2020 4:38:53 PM: Signed in as Guest.
+5/5/2020 4:38:53 PM: Player has logged in.
+5/5/2020 4:38:53 PM: Exit Signin Form.
+5/5/2020 4:40:01 PM: Open Main Menu Form.
+5/5/2020 4:40:03 PM: Open Signin Form.
+5/5/2020 4:40:04 PM: Signed in as Guest.
+5/5/2020 4:40:04 PM: Player has logged in.
+5/5/2020 4:40:04 PM: Exit Signin Form.
+5/5/2020 4:41:41 PM: Exit Main Menu Form.
+5/5/2020 4:45:06 PM: Open Main Menu Form.
+5/5/2020 4:45:08 PM: Exit Main Menu Form.
+5/5/2020 4:45:19 PM: Open Main Menu Form.
+5/5/2020 4:45:21 PM: Open Signin Form.
+5/5/2020 4:45:22 PM: Signed in as Guest.
+5/5/2020 4:45:22 PM: Player has logged in.
+5/5/2020 4:45:22 PM: Exit Signin Form.
+5/5/2020 4:52:55 PM: Exit Main Menu Form.
+5/5/2020 4:57:51 PM: Open Main Menu Form.
+5/5/2020 4:57:52 PM: Open Signin Form.
+5/5/2020 4:57:53 PM: Signed in as Guest.
+5/5/2020 4:57:53 PM: Player has logged in.
+5/5/2020 4:57:53 PM: Exit Signin Form.
+5/5/2020 4:58:27 PM: Exit Main Menu Form.
+5/5/2020 4:58:47 PM: Open Main Menu Form.
+5/5/2020 4:58:51 PM: Open Signin Form.
+5/5/2020 4:58:52 PM: Signed in as Guest.
+5/5/2020 4:58:52 PM: Player has logged in.
+5/5/2020 4:58:52 PM: Exit Signin Form.
+5/5/2020 5:00:25 PM: Exit Main Menu Form.
+5/5/2020 5:05:48 PM: Open Main Menu Form.
+5/5/2020 5:05:50 PM: Open Signin Form.
+5/5/2020 5:05:51 PM: Signed in as Guest.
+5/5/2020 5:05:51 PM: Player has logged in.
+5/5/2020 5:05:51 PM: Exit Signin Form.
+5/5/2020 5:06:13 PM: Exit Main Menu Form.
+5/5/2020 5:07:21 PM: Open Main Menu Form.
+5/5/2020 5:07:23 PM: Open Signin Form.
+5/5/2020 5:07:25 PM: Signed in as Guest.
+5/5/2020 5:07:25 PM: Player has logged in.
+5/5/2020 5:07:25 PM: Exit Signin Form.
+5/5/2020 5:09:00 PM: Exit Main Menu Form.
+5/5/2020 5:10:42 PM: Open Main Menu Form.
+5/5/2020 5:10:44 PM: Open Signin Form.
+5/5/2020 5:10:45 PM: Signed in as Guest.
+5/5/2020 5:10:45 PM: Player has logged in.
+5/5/2020 5:10:45 PM: Exit Signin Form.
+5/5/2020 5:12:05 PM: Exit Main Menu Form.
+5/5/2020 5:23:32 PM: Open Main Menu Form.
+5/5/2020 5:23:33 PM: Open Signin Form.
+5/5/2020 5:23:40 PM: admin has logged in.
+5/5/2020 5:23:40 PM: Exit Signin Form.
+5/5/2020 5:23:41 PM: View log file.
+5/5/2020 5:24:17 PM: View log file.
+5/5/2020 5:24:19 PM: BlackJack opened.
+5/5/2020 5:24:24 PM: Player has placed a bet of $50
+5/5/2020 5:24:24 PM: Black Jack Game Started.
+5/5/2020 5:24:26 PM: BlackJack Game Result: Player has won.
+5/5/2020 5:24:29 PM: Player has placed a bet of $50
+5/5/2020 5:24:29 PM: BlackJack Game Result: Dealer has won.
+5/5/2020 5:24:29 PM: Black Jack Game Started.
+5/5/2020 5:24:31 PM: Player has placed a bet of $50
+5/5/2020 5:24:31 PM: Black Jack Game Started.
+5/5/2020 5:24:33 PM: BlackJack Game Result: Player has won.
+5/5/2020 5:24:36 PM: Player has placed a bet of $50
+5/5/2020 5:24:37 PM: Black Jack Game Started.
+5/5/2020 5:24:38 PM: BlackJack Game Result: Dealer has won.
+5/5/2020 5:24:40 PM: Exit BlackJack.
+5/5/2020 5:24:41 PM: View log file.
+5/5/2020 5:24:50 PM: admin has logged out.
+5/5/2020 5:24:51 PM: Open Signin Form.
+5/5/2020 5:24:53 PM: Signed in as Guest.
+5/5/2020 5:24:53 PM: Player has logged in.
+5/5/2020 5:24:53 PM: Exit Signin Form.
+5/5/2020 5:24:54 PM: BlackJack opened.
+5/5/2020 5:24:55 PM: Player has placed a bet of $1
+5/5/2020 5:24:56 PM: Black Jack Game Started.
+5/5/2020 5:24:57 PM: BlackJack Game Result: Dealer has won.
+5/5/2020 5:24:59 PM: Player has placed a bet of $1
+5/5/2020 5:24:59 PM: Black Jack Game Started.
+5/5/2020 5:25:01 PM: Exit BlackJack.
+5/5/2020 5:25:46 PM: Exit Main Menu Form.
+5/5/2020 5:40:21 PM: Open Main Menu Form.
+5/5/2020 5:40:38 PM: Open Signin Form.
+5/5/2020 5:40:47 PM: db has logged in.
+5/5/2020 5:40:47 PM: Exit Signin Form.
+5/5/2020 5:40:49 PM: db has logged out.
+5/5/2020 5:40:50 PM: Open Signin Form.
+5/5/2020 5:40:53 PM: Signed in as Guest.
+5/5/2020 5:40:53 PM: Player has logged in.
+5/5/2020 5:40:53 PM: Exit Signin Form.
+5/5/2020 5:40:57 PM: Open Signin Form.
+5/5/2020 5:41:07 PM: New account created, testforvideo
+5/5/2020 5:41:07 PM: testforvideo has logged in.
+5/5/2020 5:41:07 PM: Exit Signin Form.
+5/5/2020 5:41:10 PM: testforvideo has logged out.
+5/5/2020 5:41:12 PM: Open Signin Form.
+5/5/2020 5:41:22 PM: testforvideo has logged in.
+5/5/2020 5:41:22 PM: Exit Signin Form.
+5/5/2020 5:41:23 PM: testforvideo has logged out.
+5/5/2020 5:41:24 PM: Open Signin Form.
+5/5/2020 5:41:31 PM: admin has logged in.
+5/5/2020 5:41:31 PM: Exit Signin Form.
+5/5/2020 5:41:33 PM: View log file.
+5/5/2020 5:42:02 PM: BlackJack opened.
+5/5/2020 5:42:22 PM: Player has placed a bet of $50
+5/5/2020 5:42:25 PM: Black Jack Game Started.
+5/5/2020 5:42:32 PM: BlackJack Game Result: Dealer has won.
+5/5/2020 5:42:43 PM: Player has placed a bet of $50
+5/5/2020 5:42:44 PM: Black Jack Game Started.
+5/5/2020 5:42:48 PM: BlackJack Game Result: Push
+5/5/2020 5:42:50 PM: Player has placed a bet of $50
+5/5/2020 5:42:50 PM: BlackJack Game Result: Dealer has won.
+5/5/2020 5:42:50 PM: Black Jack Game Started.
+5/5/2020 5:42:52 PM: Player has placed a bet of $50
+5/5/2020 5:42:53 PM: Black Jack Game Started.
+5/5/2020 5:42:53 PM: BlackJack Game Result: Dealer has won.
+5/5/2020 5:42:54 PM: Player has placed a bet of $50
+5/5/2020 5:42:55 PM: Black Jack Game Started.
+5/5/2020 5:42:57 PM: BlackJack Game Result: Player has won.
+5/5/2020 5:43:05 PM: Exit BlackJack.
+5/5/2020 5:44:32 PM: View log file.
+5/5/2020 5:44:42 PM: admin has logged out.
+5/5/2020 5:44:43 PM: Open Signin Form.
+5/5/2020 5:44:53 PM: testforvideo has logged in.
+5/5/2020 5:44:54 PM: Exit Signin Form.
+5/5/2020 5:44:54 PM: BlackJack opened.
+5/5/2020 5:45:01 PM: Player has placed a bet of $25
+5/5/2020 5:45:02 PM: Black Jack Game Started.
+5/5/2020 5:45:04 PM: BlackJack Game Result: Dealer has won.
+5/5/2020 5:45:06 PM: Player has placed a bet of $25
+5/5/2020 5:45:07 PM: Black Jack Game Started.
+5/5/2020 5:45:08 PM: BlackJack Game Result: Player has won.
+5/5/2020 5:45:09 PM: Exit BlackJack.
+5/5/2020 5:45:17 PM: testforvideo has logged out.
+5/5/2020 5:45:17 PM: Exit Main Menu Form.
+5/5/2020 5:45:55 PM: Open Main Menu Form.
+5/5/2020 5:45:57 PM: Open Signin Form.
+5/5/2020 5:45:58 PM: Signed in as Guest.
+5/5/2020 5:45:58 PM: Player has logged in.
+5/5/2020 5:45:58 PM: Exit Signin Form.
+5/5/2020 5:46:36 PM: Open Signin Form.
+5/5/2020 5:46:37 PM: Exit Signin Form.
+5/5/2020 5:46:38 PM: Exit Main Menu Form.
+5/5/2020 6:11:57 PM: Open Main Menu Form.
+5/5/2020 6:12:38 PM: Open Signin Form.
+5/5/2020 6:12:39 PM: Signed in as Guest.
+5/5/2020 6:12:39 PM: Player has logged in.
+5/5/2020 6:12:39 PM: Exit Signin Form.
+5/5/2020 6:14:49 PM: Exit Main Menu Form.
+5/5/2020 6:56:10 PM: Open Main Menu Form.
+5/5/2020 6:56:13 PM: Open Signin Form.
+5/5/2020 6:56:14 PM: Signed in as Guest.
+5/5/2020 6:56:14 PM: Player has logged in.
+5/5/2020 6:56:14 PM: Exit Signin Form.
+5/5/2020 6:57:21 PM: Exit Main Menu Form.
+5/5/2020 6:59:51 PM: Open Main Menu Form.
+5/5/2020 6:59:53 PM: Exit Main Menu Form.
+5/5/2020 7:02:50 PM: Open Main Menu Form.
+5/5/2020 7:02:52 PM: Open Signin Form.
+5/5/2020 7:02:53 PM: Signed in as Guest.
+5/5/2020 7:02:53 PM: Player has logged in.
+5/5/2020 7:02:53 PM: Exit Signin Form.
+5/5/2020 7:28:33 PM: Open Main Menu Form.
+5/5/2020 7:28:35 PM: Open Signin Form.
+5/5/2020 7:28:36 PM: Signed in as Guest.
+5/5/2020 7:28:36 PM: Player has logged in.
+5/5/2020 7:28:36 PM: Exit Signin Form.
+5/5/2020 7:33:51 PM: Exit Main Menu Form.
+5/5/2020 8:01:58 PM: Open Main Menu Form.
+5/5/2020 8:02:00 PM: Open Signin Form.
+5/5/2020 8:02:02 PM: Signed in as Guest.
+5/5/2020 8:02:02 PM: Player has logged in.
+5/5/2020 8:02:02 PM: Exit Signin Form.
+5/5/2020 8:03:27 PM: Exit Main Menu Form.
+5/5/2020 8:04:22 PM: Open Main Menu Form.
+5/5/2020 8:04:23 PM: Open Signin Form.
+5/5/2020 8:04:25 PM: Signed in as Guest.
+5/5/2020 8:04:25 PM: Player has logged in.
+5/5/2020 8:04:25 PM: Exit Signin Form.
+5/5/2020 8:04:26 PM: Exit Main Menu Form.
+5/5/2020 8:05:31 PM: Open Main Menu Form.
+5/5/2020 8:05:33 PM: Open Signin Form.
+5/5/2020 8:05:34 PM: Signed in as Guest.
+5/5/2020 8:05:34 PM: Player has logged in.
+5/5/2020 8:05:34 PM: Exit Signin Form.
+5/5/2020 8:06:35 PM: Exit Main Menu Form.
+5/5/2020 8:08:09 PM: Open Main Menu Form.
+5/5/2020 8:08:11 PM: Open Signin Form.
+5/5/2020 8:08:17 PM: admin has logged in.
+5/5/2020 8:08:17 PM: Exit Signin Form.
+5/5/2020 8:08:56 PM: admin has logged out.
+5/5/2020 8:08:57 PM: Exit Main Menu Form.
+5/5/2020 8:09:01 PM: Open Main Menu Form.
+5/5/2020 8:09:03 PM: Open Signin Form.
+5/5/2020 8:09:08 PM: admin has logged in.
+5/5/2020 8:09:08 PM: Exit Signin Form.
+5/5/2020 8:09:10 PM: BlackJack opened.
+5/5/2020 8:09:18 PM: Exit BlackJack.
+5/5/2020 8:09:19 PM: admin has logged out.
+5/5/2020 8:09:21 PM: Exit Main Menu Form.
+5/5/2020 8:09:24 PM: Open Main Menu Form.
+5/5/2020 8:09:25 PM: Open Signin Form.
+5/5/2020 8:09:31 PM: admin has logged in.
+5/5/2020 8:09:31 PM: Exit Signin Form.
+5/5/2020 8:09:33 PM: BlackJack opened.
+5/5/2020 8:09:35 PM: Exit BlackJack.
+5/5/2020 8:09:36 PM: admin has logged out.
+5/5/2020 8:09:36 PM: Exit Main Menu Form.
+5/5/2020 8:11:29 PM: Open Main Menu Form.
+5/5/2020 8:11:31 PM: Open Signin Form.
+5/5/2020 8:11:32 PM: Signed in as Guest.
+5/5/2020 8:11:32 PM: Player has logged in.
+5/5/2020 8:11:32 PM: Exit Signin Form.
+5/5/2020 8:11:40 PM: Exit Main Menu Form.
+5/5/2020 8:13:47 PM: Open Main Menu Form.
+5/5/2020 8:13:48 PM: Open Signin Form.
+5/5/2020 8:14:02 PM: testforvideo has logged in.
+5/5/2020 8:14:02 PM: Exit Signin Form.
+5/5/2020 8:14:18 PM: testforvideo has logged out.
+5/5/2020 8:14:18 PM: Exit Main Menu Form.
+5/5/2020 8:16:35 PM: Open Main Menu Form.
+5/5/2020 8:16:37 PM: Open Signin Form.
+5/5/2020 8:16:45 PM: testforvideo has logged in.
+5/5/2020 8:16:45 PM: Exit Signin Form.
+5/5/2020 8:17:29 PM: testforvideo has logged out.
+5/5/2020 8:17:34 PM: Exit Main Menu Form.
+5/5/2020 8:17:45 PM: Open Main Menu Form.
+5/5/2020 8:17:46 PM: Open Signin Form.
+5/5/2020 8:17:57 PM: testforvideo has logged in.
+5/5/2020 8:17:57 PM: Exit Signin Form.
+5/5/2020 8:18:05 PM: testforvideo has logged out.
+5/5/2020 8:18:05 PM: Exit Main Menu Form.
+5/5/2020 8:18:14 PM: Open Main Menu Form.
+5/5/2020 8:18:15 PM: Open Signin Form.
+5/5/2020 8:18:24 PM: testforvideo has logged in.
+5/5/2020 8:18:24 PM: Exit Signin Form.
+5/5/2020 8:18:52 PM: testforvideo has logged out.
+5/5/2020 8:18:52 PM: Exit Main Menu Form.
+5/5/2020 ===<Log Overhaul>=== {Manual Entry}
+5/5/2020 10:25:29 PM: Opened Main Menu.
+5/5/2020 10:25:31 PM: Opened Sign In Menu.
+5/5/2020 10:25:37 PM: admin has signed in.
+5/5/2020 10:25:37 PM: Closed Sign In Menu.
+5/5/2020 10:25:39 PM: View log file.
+5/5/2020 10:26:04 PM: admin has signed out.
+5/5/2020 10:26:04 PM: Opened Main Menu.
+5/5/2020 11:04:14 PM: Opened Main Menu.
+5/5/2020 11:04:16 PM: Opened Sign In Menu.
+5/5/2020 11:04:18 PM: Signed in as Guest.
+5/5/2020 11:04:18 PM: Player has signed in.
+5/5/2020 11:04:18 PM: Closed Sign In Menu.
+5/5/2020 11:04:19 PM: Opened Roulette.
+5/5/2020 11:04:26 PM: Player has placed a bet of $50
+5/5/2020 11:04:26 PM: Bet place on Odds.
+5/5/2020 11:04:28 PM: Player has placed a bet of $50
+5/5/2020 11:04:28 PM: Bet place on 14.
+5/5/2020 11:04:32 PM: Roulette has started.
+5/5/2020 11:04:45 PM: Roulette result: Player has won $100.
+5/5/2020 11:05:42 PM: Closed Roulette.
+5/5/2020 11:05:47 PM: Opened Sign In Menu.
+5/5/2020 11:05:53 PM: admin has signed in.
+5/5/2020 11:05:53 PM: Closed Sign In Menu.
+5/5/2020 11:05:55 PM: View log file.
+5/5/2020 11:06:47 PM: admin has signed out.
+5/5/2020 11:06:47 PM: Opened Main Menu.
+5/5/2020 11:19:26 PM: Opened Main Menu.
+5/5/2020 11:19:27 PM: Opened Sign In Menu.
+5/5/2020 11:19:29 PM: Signed in as Guest.
+5/5/2020 11:19:29 PM: Player has signed in.
+5/5/2020 11:19:29 PM: Closed Sign In Menu.
+5/5/2020 11:19:30 PM: Opened Roulette.
+5/5/2020 11:19:42 PM: Player has placed a bet of $50
+5/5/2020 11:19:42 PM: Bet place on Reds.
+5/5/2020 11:19:50 PM: Roulette has started.
+5/5/2020 11:20:04 PM: Roulette result: Player has won $100.
+5/5/2020 11:20:30 PM: Closed Roulette.
+5/5/2020 11:20:32 PM: Opened Main Menu.
+5/5/2020 11:44:21 PM: Opened Main Menu.
+5/5/2020 11:44:26 PM: Opened Sign In Menu.
+5/5/2020 11:44:27 PM: Signed in as Guest.
+5/5/2020 11:44:27 PM: Player has signed in.
+5/5/2020 11:44:27 PM: Closed Sign In Menu.
+5/5/2020 11:44:29 PM: Opened Roulette.
+5/5/2020 11:44:32 PM: Opened Roulette Board.
+5/5/2020 11:44:38 PM: Closed Roulette Board.
+5/5/2020 11:44:39 PM: Closed Roulette.
+5/5/2020 11:44:41 PM: Opened Sign In Menu.
+5/5/2020 11:44:49 PM: admin has signed in.
+5/5/2020 11:44:49 PM: Admin privileges granted.
+5/5/2020 11:44:49 PM: Closed Sign In Menu.
+5/5/2020 11:44:50 PM: View log file.
+5/5/2020 11:45:23 PM: admin has signed out.
+5/5/2020 11:45:23 PM: Opened Main Menu.
+5/5/2020 11:45:45 PM: Opened Main Menu.
+5/5/2020 11:45:46 PM: Opened Sign In Menu.
+5/5/2020 11:45:53 PM: admin has signed in.
+5/5/2020 11:45:53 PM: Admin privileges granted.
+5/5/2020 11:45:53 PM: Closed Sign In Menu.
+5/5/2020 11:45:54 PM: View log file.
+5/5/2020 11:46:11 PM: admin has signed out.
+5/5/2020 11:46:12 PM: Opened Main Menu.
+5/5/2020 11:47:40 PM: Opened Main Menu.
+5/5/2020 11:47:41 PM: Opened Sign In Menu.
+5/5/2020 11:47:42 PM: Signed in as Guest.
+5/5/2020 11:47:42 PM: Player has signed in.
+5/5/2020 11:47:42 PM: Closed Sign In Menu.
+5/5/2020 11:47:43 PM: Opened Roulette.
+5/5/2020 11:47:45 PM: Opened Roulette Board.
+5/5/2020 11:47:58 PM: Player has placed a bet of $200
+5/5/2020 11:47:58 PM: Bet place on Blacks.
+5/5/2020 11:48:00 PM: Closed Roulette Board.
+5/5/2020 11:48:02 PM: Roulette has started.
+5/5/2020 11:48:14 PM: Roulette result: Player has won $400.
+5/5/2020 11:55:59 PM: Opened Roulette Board.
+5/5/2020 11:56:04 PM: Closed Roulette Board.
+5/5/2020 11:56:05 PM: Closed Roulette.
+5/5/2020 11:56:06 PM: Opened Main Menu.
+5/5/2020 11:56:46 PM: Opened Main Menu.
+5/5/2020 11:56:47 PM: Opened Sign In Menu.
+5/5/2020 11:56:49 PM: Signed in as Guest.
+5/5/2020 11:56:49 PM: Player has signed in.
+5/5/2020 11:56:49 PM: Closed Sign In Menu.
+5/5/2020 11:56:50 PM: Opened Roulette.
+5/5/2020 11:56:51 PM: Opened Roulette Board.
+5/5/2020 11:56:55 PM: Player has placed a bet of $1
+5/5/2020 11:56:55 PM: Bet place on 3.
+5/5/2020 11:56:55 PM: Player has placed a bet of $1
+5/5/2020 11:56:55 PM: Bet place on 2.
+5/5/2020 11:56:56 PM: Player has placed a bet of $1
+5/5/2020 11:56:56 PM: Bet place on 1.
+5/5/2020 11:56:56 PM: Player has placed a bet of $1
+5/5/2020 11:56:56 PM: Bet place on 4.
+5/5/2020 11:56:56 PM: Player has placed a bet of $1
+5/5/2020 11:56:56 PM: Bet place on 5.
+5/5/2020 11:56:57 PM: Player has placed a bet of $1
+5/5/2020 11:56:57 PM: Bet place on 6.
+5/5/2020 11:56:58 PM: Player has placed a bet of $1
+5/5/2020 11:56:58 PM: Bet place on 9.
+5/5/2020 11:56:58 PM: Player has placed a bet of $1
+5/5/2020 11:56:58 PM: Bet place on 8.
+5/5/2020 11:56:59 PM: Player has placed a bet of $1
+5/5/2020 11:56:59 PM: Bet place on 7.
+5/5/2020 11:56:59 PM: Player has placed a bet of $1
+5/5/2020 11:56:59 PM: Bet place on 10.
+5/5/2020 11:57:00 PM: Player has placed a bet of $1
+5/5/2020 11:57:00 PM: Bet place on 11.
+5/5/2020 11:57:01 PM: Player has placed a bet of $1
+5/5/2020 11:57:01 PM: Bet place on 12.
+5/5/2020 11:57:07 PM: Closed Roulette Board.
+5/5/2020 11:57:08 PM: Roulette has started.
+5/5/2020 11:57:18 PM: Roulette result: Player did not win.
+5/5/2020 11:57:57 PM: Closed Roulette.
+5/5/2020 11:57:58 PM: Opened Main Menu.
+5/6/2020 12:00:59 AM: Opened Main Menu.
+5/6/2020 12:01:00 AM: Opened Sign In Menu.
+5/6/2020 12:01:03 AM: Signed in as Guest.
+5/6/2020 12:01:03 AM: Player has signed in.
+5/6/2020 12:01:03 AM: Closed Sign In Menu.
+5/6/2020 12:01:05 AM: Opened Roulette.
+5/6/2020 12:02:05 AM: Opened Roulette Board.
+5/6/2020 12:02:08 AM: Player has placed a bet of $1
+5/6/2020 12:02:08 AM: Bet place on 1.
+5/6/2020 12:02:08 AM: Player has placed a bet of $1
+5/6/2020 12:02:08 AM: Bet place on 4.
+5/6/2020 12:02:09 AM: Player has placed a bet of $1
+5/6/2020 12:02:09 AM: Bet place on 7.
+5/6/2020 12:02:09 AM: Player has placed a bet of $1
+5/6/2020 12:02:09 AM: Bet place on 10.
+5/6/2020 12:02:10 AM: Player has placed a bet of $1
+5/6/2020 12:02:10 AM: Bet place on 13.
+5/6/2020 12:02:11 AM: Player has placed a bet of $1
+5/6/2020 12:02:11 AM: Bet place on 16.
+5/6/2020 12:02:11 AM: Player has placed a bet of $1
+5/6/2020 12:02:11 AM: Bet place on 19.
+5/6/2020 12:02:12 AM: Player has placed a bet of $1
+5/6/2020 12:02:12 AM: Bet place on 22.
+5/6/2020 12:02:12 AM: Player has placed a bet of $1
+5/6/2020 12:02:12 AM: Bet place on 25.
+5/6/2020 12:02:13 AM: Player has placed a bet of $1
+5/6/2020 12:02:13 AM: Bet place on 28.
+5/6/2020 12:02:14 AM: Player has placed a bet of $1
+5/6/2020 12:02:14 AM: Bet place on 31.
+5/6/2020 12:02:14 AM: Player has placed a bet of $1
+5/6/2020 12:02:14 AM: Bet place on 34.
+5/6/2020 12:02:16 AM: Closed Roulette Board.
+5/6/2020 12:02:18 AM: Roulette has started.
+5/6/2020 12:02:30 AM: Roulette result: Player did not win.
+5/6/2020 12:02:40 AM: Opened Roulette Board.
+5/6/2020 12:02:41 AM: Player has placed a bet of $1
+5/6/2020 12:02:41 AM: Bet place on 13 through 24.
+5/6/2020 12:02:43 AM: Closed Roulette Board.
+5/6/2020 12:02:44 AM: Roulette has started.
+5/6/2020 12:02:57 AM: Roulette result: Player did not win.
+5/6/2020 12:03:09 AM: Opened Roulette Board.
+5/6/2020 12:05:06 AM: Closed Roulette Board.
+5/6/2020 12:05:09 AM: Closed Roulette.
+5/6/2020 12:05:11 AM: Opened Main Menu.
+5/6/2020 12:28:31 PM: Opened Main Menu.
+5/6/2020 12:28:33 PM: Opened Sign In Menu.
+5/6/2020 12:28:47 PM: admin has signed in.
+5/6/2020 12:28:47 PM: Admin privileges granted.
+5/6/2020 12:28:47 PM: Closed Sign In Menu.
+5/6/2020 12:28:52 PM: Opened Roulette.
+5/6/2020 12:29:07 PM: Opened Roulette Board.
+5/6/2020 12:29:15 PM: Player has placed a bet of $450
+5/6/2020 12:29:15 PM: Bet place on 13 through 24.
+5/6/2020 12:29:21 PM: Closed Roulette Board.
+5/6/2020 12:29:22 PM: Roulette has started.
+5/6/2020 12:29:35 PM: Roulette result: Player did not win.
+5/6/2020 12:29:47 PM: Closed Roulette.
+5/6/2020 12:29:48 PM: admin has signed out.
+5/6/2020 12:29:48 PM: Opened Main Menu.
+5/6/2020 12:56:33 PM: Opened Main Menu.
+5/6/2020 12:56:34 PM: Opened Sign In Menu.
+5/6/2020 12:56:37 PM: Signed in as Guest.
+5/6/2020 12:56:37 PM: Player has signed in.
+5/6/2020 12:56:37 PM: Closed Sign In Menu.
+5/6/2020 12:56:42 PM: Opened Roulette.
+5/6/2020 12:56:44 PM: Opened Roulette Board.
+5/6/2020 12:56:52 PM: Player has placed a bet of $199
+5/6/2020 12:56:52 PM: Bet place on Reds.
+5/6/2020 12:56:55 PM: Player has placed a bet of $1
+5/6/2020 12:56:55 PM: Bet place on Blacks.
+5/6/2020 12:57:01 PM: Closed Roulette Board.
+5/6/2020 12:57:05 PM: Roulette has started.
+5/6/2020 12:57:20 PM: Roulette result: Player has won $398.
+5/6/2020 12:57:32 PM: Opened Roulette Board.
+5/6/2020 12:57:40 PM: Player has placed a bet of $200
+5/6/2020 12:57:40 PM: Bet place on Reds.
+5/6/2020 12:57:41 PM: Closed Roulette Board.
+5/6/2020 12:57:42 PM: Opened Roulette Board.
+5/6/2020 12:57:44 PM: Closed Roulette Board.
+5/6/2020 12:57:45 PM: Roulette has started.
+5/6/2020 12:58:01 PM: Roulette result: Player has won $400.
+5/6/2020 12:59:11 PM: Opened Roulette Board.
+5/6/2020 12:59:15 PM: Player has placed a bet of $50
+5/6/2020 12:59:15 PM: Bet place on Blacks.
+5/6/2020 12:59:18 PM: Closed Roulette Board.
+5/6/2020 12:59:20 PM: Roulette has started.
+5/6/2020 12:59:34 PM: Roulette result: Player did not win.
+5/6/2020 12:59:42 PM: Roulette has started.
+5/6/2020 12:59:58 PM: Roulette result: Player did not win.
+5/6/2020 12:59:59 PM: Opened Roulette Board.
+5/6/2020 12:59:59 PM: Opened Roulette Board.
+5/6/2020 1:00:01 PM: Closed Roulette Board.
+5/6/2020 1:00:04 PM: Closed Roulette Board.
+5/6/2020 1:00:05 PM: Closed Roulette.
+5/6/2020 1:18:26 PM: Opened Main Menu.
+5/6/2020 1:18:28 PM: Opened Sign In Menu.
+5/6/2020 1:18:33 PM: Signed in as Guest.
+5/6/2020 1:18:33 PM: Player has signed in.
+5/6/2020 1:18:33 PM: Closed Sign In Menu.
+5/6/2020 1:18:34 PM: Opened Roulette.
+5/6/2020 1:18:36 PM: Roulette has started.
+5/6/2020 1:18:51 PM: Roulette result: Player did not win.
+5/6/2020 1:18:51 PM: Opened Roulette Board.
+5/6/2020 1:18:51 PM: Opened Roulette Board.
+5/6/2020 1:18:51 PM: Player has placed a bet of $1
+5/6/2020 1:18:51 PM: Bet place on 1 through 18.
+5/6/2020 1:19:18 PM: Closed Roulette Board.
+5/6/2020 1:19:20 PM: Opened Roulette Board.
+5/6/2020 1:19:31 PM: Closed Roulette Board.
+5/6/2020 1:19:33 PM: Roulette has started.
+5/6/2020 1:19:47 PM: Roulette result: Player did not win.
+5/6/2020 1:20:01 PM: Opened Roulette Board.
+5/6/2020 1:20:14 PM: Player has placed a bet of $199
+5/6/2020 1:20:14 PM: Bet place on Blacks.
+5/6/2020 1:20:17 PM: Closed Roulette Board.
+5/6/2020 1:20:19 PM: Roulette has started.
+5/6/2020 1:20:32 PM: Roulette result: Player has won $398.
+5/6/2020 1:20:58 PM: Roulette has started.
+5/6/2020 1:21:12 PM: Roulette result: Player did not win.
+5/6/2020 1:21:12 PM: Opened Roulette Board.
+5/6/2020 1:21:12 PM: Opened Roulette Board.
+5/6/2020 1:21:12 PM: Opened Roulette Board.
+5/6/2020 1:21:12 PM: Roulette has started.
+5/6/2020 1:21:27 PM: Roulette result: Player did not win.
+5/6/2020 1:21:27 PM: Opened Roulette Board.
+5/6/2020 1:21:27 PM: Opened Roulette Board.
+5/6/2020 1:21:27 PM: Opened Roulette Board.
+5/6/2020 1:21:28 PM: Opened Roulette Board.
+5/6/2020 1:21:28 PM: Player has placed a bet of $1
+5/6/2020 1:21:28 PM: Bet place on 35.
+5/6/2020 1:21:28 PM: Player has placed a bet of $1
+5/6/2020 1:21:28 PM: Bet place on 32.
+5/6/2020 1:21:30 PM: Closed Roulette Board.
+5/6/2020 1:21:31 PM: Closed Roulette Board.
+5/6/2020 1:21:32 PM: Closed Roulette Board.
+5/6/2020 1:21:33 PM: Closed Roulette Board.
+5/6/2020 1:21:34 PM: Closed Roulette Board.
+5/6/2020 1:21:36 PM: Closed Roulette Board.
+5/6/2020 1:21:37 PM: Closed Roulette Board.
+5/6/2020 1:21:38 PM: Closed Roulette Board.
+5/6/2020 1:34:27 PM: Closed Roulette.
+5/6/2020 1:34:30 PM: Opened Main Menu.
+5/6/2020 2:22:47 PM: Opened Main Menu.
+5/6/2020 2:22:49 PM: Opened Sign In Menu.
+5/6/2020 2:22:58 PM: db has signed in.
+5/6/2020 2:22:58 PM: Closed Sign In Menu.
+5/6/2020 2:23:15 PM: Opened Roulette.
+5/6/2020 2:23:17 PM: Opened Roulette Board.
+5/6/2020 2:23:22 PM: Player has placed a bet of $25
+5/6/2020 2:23:22 PM: Bet place on Reds.
+5/6/2020 2:23:24 PM: Closed Roulette Board.
+5/6/2020 2:23:25 PM: Roulette has started.
+5/6/2020 2:23:40 PM: Roulette result: Player has won $50.
+5/6/2020 2:24:34 PM: Roulette has started.
+5/6/2020 2:24:49 PM: Roulette result: Player did not win.
+5/6/2020 2:24:49 PM: Opened Roulette Board.
+5/6/2020 2:24:59 PM: Player has placed a bet of $50
+5/6/2020 2:24:59 PM: Bet place on Blacks.
+5/6/2020 2:25:05 PM: Closed Roulette Board.
+5/6/2020 2:25:07 PM: Roulette has started.
+5/6/2020 2:25:19 PM: Roulette result: Player did not win.
+5/6/2020 2:25:29 PM: Closed Roulette.
+5/6/2020 2:25:32 PM: db has signed out.
+5/6/2020 2:25:32 PM: Opened Main Menu.
+5/6/2020 4:05:01 PM: Opened Main Menu.
+5/6/2020 4:05:03 PM: Opened Sign In Menu.
+5/6/2020 4:05:04 PM: Signed in as Guest.
+5/6/2020 4:05:04 PM: Player has signed in.
+5/6/2020 4:05:04 PM: Closed Sign In Menu.
+5/6/2020 4:05:05 PM: Opened Black Jack.
+5/6/2020 4:05:11 PM: Player has placed a bet of $200
+5/6/2020 4:05:22 PM: Black Jack result: Push.
+5/6/2020 4:05:24 PM: Player has placed a bet of $200
+5/6/2020 4:05:28 PM: Closed Black Jack.
+5/6/2020 4:05:31 PM: Opened Main Menu.
+5/6/2020 4:06:08 PM: Opened Main Menu.
+5/6/2020 4:06:10 PM: Opened Main Menu.
+5/6/2020 4:08:27 PM: Opened Main Menu.
+5/6/2020 4:08:29 PM: Opened Sign In Menu.
+5/6/2020 4:08:30 PM: Signed in as Guest.
+5/6/2020 4:08:30 PM: Player has signed in.
+5/6/2020 4:08:30 PM: Closed Sign In Menu.
+5/6/2020 4:08:31 PM: Opened Black Jack.
+5/6/2020 4:08:44 PM: Player has placed a bet of $1
+5/6/2020 4:08:46 PM: Black Jack has started.
+5/6/2020 4:08:46 PM: Black Jack has started.
+5/6/2020 4:08:47 PM: Black Jack result: Player has won.
+5/6/2020 4:08:55 PM: Closed Black Jack.
+5/6/2020 4:08:56 PM: Opened Main Menu.
+5/6/2020 4:32:22 PM: Opened Main Menu.
+5/6/2020 4:32:23 PM: Opened Sign In Menu.
+5/6/2020 4:32:24 PM: Signed in as Guest.
+5/6/2020 4:32:24 PM: Player has signed in.
+5/6/2020 4:32:24 PM: Closed Sign In Menu.
+5/6/2020 4:32:25 PM: Opened Roulette.
+5/6/2020 4:32:27 PM: Roulette has started.
+5/6/2020 4:32:50 PM: Roulette result: Player did not win.
+5/6/2020 4:32:58 PM: Closed Roulette.
+5/6/2020 4:32:59 PM: Opened Main Menu.
+5/6/2020 4:33:10 PM: Opened Main Menu.
+5/6/2020 4:33:11 PM: Opened Sign In Menu.
+5/6/2020 4:33:13 PM: Signed in as Guest.
+5/6/2020 4:33:13 PM: Player has signed in.
+5/6/2020 4:33:13 PM: Closed Sign In Menu.
+5/6/2020 4:33:14 PM: Opened Roulette.
+5/6/2020 4:33:16 PM: Roulette has started.
+5/6/2020 4:33:27 PM: Roulette result: Player did not win.
+5/6/2020 4:33:33 PM: Closed Roulette.
+5/6/2020 4:33:36 PM: Opened Main Menu.
+5/6/2020 4:33:56 PM: Opened Main Menu.
+5/6/2020 4:33:57 PM: Opened Sign In Menu.
+5/6/2020 4:33:59 PM: Signed in as Guest.
+5/6/2020 4:33:59 PM: Player has signed in.
+5/6/2020 4:33:59 PM: Closed Sign In Menu.
+5/6/2020 4:33:59 PM: Opened Roulette.
+5/6/2020 4:34:01 PM: Roulette has started.
+5/6/2020 4:34:12 PM: Roulette result: Player did not win.
+5/6/2020 4:34:23 PM: Closed Roulette.
+5/6/2020 4:34:24 PM: Opened Main Menu.
+5/6/2020 4:34:33 PM: Opened Main Menu.
+5/6/2020 4:34:35 PM: Opened Sign In Menu.
+5/6/2020 4:34:36 PM: Signed in as Guest.
+5/6/2020 4:34:36 PM: Player has signed in.
+5/6/2020 4:34:36 PM: Closed Sign In Menu.
+5/6/2020 4:34:37 PM: Opened Roulette.
+5/6/2020 4:34:38 PM: Roulette has started.
+5/6/2020 4:34:48 PM: Roulette result: Player did not win.
+5/6/2020 4:34:51 PM: Roulette has started.
+5/6/2020 4:35:02 PM: Roulette result: Player did not win.
+5/6/2020 4:35:03 PM: Closed Roulette.
+5/6/2020 4:35:10 PM: Opened Main Menu.
+5/6/2020 6:45:53 PM: Opened Main Menu.
+5/6/2020 6:45:55 PM: Opened Sign In Menu.
+5/6/2020 6:46:02 PM: db has signed in.
+5/6/2020 6:46:02 PM: Closed Sign In Menu.
+5/6/2020 6:46:03 PM: Opened Black Jack.
+5/6/2020 6:46:07 PM: Player has placed a bet of $50
+5/6/2020 6:46:07 PM: Black Jack has started.
+5/6/2020 6:46:07 PM: Black Jack has started.
+5/6/2020 6:46:08 PM: Black Jack result: Dealer has won.
+5/6/2020 6:46:10 PM: Closed Black Jack.
+5/6/2020 6:46:11 PM: Opened Roulette.
+5/6/2020 7:05:51 PM: Roulette has started.
+5/6/2020 7:06:02 PM: Roulette result: Player did not win.
+5/6/2020 7:06:03 PM: Closed Roulette.
+5/6/2020 7:06:15 PM: db has signed out.
+5/6/2020 7:06:15 PM: Opened Main Menu.
+5/6/2020 ===<Log File Moved>=== {Manual Entry}
+5/6/2020 8:51:53 PM: Opened Main Menu.
+5/6/2020 8:51:54 PM: Opened Sign In Menu.
+5/6/2020 8:52:03 PM: db has signed in.
+5/6/2020 8:52:03 PM: Closed Sign In Menu.
+5/6/2020 8:52:04 PM: Opened Roulette.
+5/6/2020 8:52:06 PM: Opened Roulette Board.
+5/6/2020 8:52:10 PM: Player has placed a bet of $50
+5/6/2020 8:52:10 PM: Bet place on Blacks.
+5/6/2020 8:52:12 PM: Closed Roulette Board.
+5/6/2020 8:52:13 PM: Roulette has started.
+5/6/2020 8:52:23 PM: Roulette result: Player has won $100.
+5/6/2020 8:52:27 PM: Closed Roulette.
+5/6/2020 8:52:31 PM: db has signed out.
+5/6/2020 8:52:32 PM: Opened Main Menu.
+5/6/2020 8:52:45 PM: Opened Main Menu.
+5/6/2020 8:52:48 PM: Opened Sign In Menu.
+5/6/2020 8:52:49 PM: Signed in as Guest.
+5/6/2020 8:52:49 PM: Player has signed in.
+5/6/2020 8:52:49 PM: Closed Sign In Menu.
+5/6/2020 8:52:51 PM: Opened Roulette.
+5/6/2020 8:52:52 PM: Roulette has started.
+5/6/2020 8:53:03 PM: Roulette result: Player did not win.
+5/6/2020 8:53:06 PM: Closed Roulette.
+5/6/2020 8:53:08 PM: Opened Main Menu.

@@ -38,7 +38,7 @@ namespace Cards
             this._password = p;
             this._bank = 100;
             this._lastPlayed = DateTime.Now;
-            if (_username.Equals("admin"))
+            if (_username.Length > 0 && _username.Equals("admin"))
                 this._admin = true;
         }
 

@@ -183,11 +183,36 @@ namespace Cards
         /// </summary>
         public void UpdateText()
         {
+            string fileName;
             this.wheel.Image.Dispose();
             if (index != 0)
-                this.wheel.Image = Image.FromFile(String.Format("Boards/board{0}SZ.png", Roulette.Order[index]));
+            {
+                try
+                {
+                    fileName = String.Format(@"..\..\Resources\board{0}SZ.png", Roulette.Order[index]);
+                    wheel.Image = Image.FromFile(fileName);
+                }
+                catch (Exception)
+                {
+                    // Original working (local only) file system.
+                    //fileName = String.Format("Boards/board{0}SZ.png", Roulette.Order[index]);
+                    //wheel.Image = Image.FromFile(fileName);
+                }
+            }
             else
-                this.wheel.Image = Image.FromFile("Boards/board00SZ.png");
+            { 
+                try
+                {
+                    fileName = String.Format(@"..\..\Resources\board00SZ.png", Roulette.Order[index]);
+                    wheel.Image = Image.FromFile(fileName);
+                }
+                catch (Exception)
+                {
+                    // Original working (local only) file system.
+                    //fileName = String.Format("Boards/board00SZ.png");
+                    //wheel.Image = Image.FromFile(fileName);
+                }
+            }
             this.wheel.Update();
             this.bank.Text = String.Format("${0}", _user.Bank);
         }

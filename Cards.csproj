@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,6 +47,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup />
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -47,6 +63,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Card.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="RouletteBoard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,13 +121,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Roulette.resx">
       <DependentUpon>Roulette.cs</DependentUpon>
     </EmbeddedResource>
@@ -128,6 +145,270 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board00SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board0SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board1SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board2SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board3SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board4SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board5SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board6SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board7SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board8SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board9SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board10SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board11SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board12SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board13SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board14SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board15SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board16SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board17SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board18SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board19SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board20SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board21SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board22SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board23SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board24SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board25SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board26SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board27SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board28SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board29SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board30SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board31SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board32SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board33SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board34SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board35SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Boards\board36SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\acc.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Log.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acc.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Reserved Resources\Boards\board00SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Reserved Resources\Boards\board0SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board00SZ.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Reserved Resources\acc.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Reserved Resources\Log.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board00SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Log.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board0SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board1SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board2SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board20SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board21SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board4SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board5SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board6SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board7SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board8SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board9SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board10SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board11SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board12SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board13SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board14SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board15SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board16SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board17SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board18SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board19SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board30SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board34SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board35SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board36SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board22SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board23SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board24SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board28SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board29SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board31SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board32SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board33SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board25SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board26SZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board27SZ.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

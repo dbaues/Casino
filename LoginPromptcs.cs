@@ -40,7 +40,7 @@ namespace Cards
             accounts = new List<User>();
             log = new SignInLog();
 
-            using (StreamReader sr = new StreamReader("acc.txt"))
+            using (StreamReader sr = new StreamReader(MainMenu.ACCOUNT_FILE))
             {
                 string line;
                 while ((line = sr.ReadLine()) != null)
@@ -174,7 +174,7 @@ namespace Cards
         public User SaveNewUser()
         {
             User tmp = null;
-            using (StreamWriter sw = new StreamWriter("acc.txt"))
+            using (StreamWriter sw = new StreamWriter(MainMenu.ACCOUNT_FILE))
             {
                 foreach (User u in accounts)
                 {
