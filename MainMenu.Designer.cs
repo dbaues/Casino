@@ -120,6 +120,8 @@
             this.Controls.Add(this.login);
             this.Controls.Add(this.blackjack);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(293, 278);
+            this.MinimumSize = new System.Drawing.Size(293, 278);
             this.Name = "MainMenu";
             this.Text = "Virtual Casino";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainMenu_FormClosed);

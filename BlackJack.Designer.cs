@@ -248,9 +248,11 @@
             this.Controls.Add(this.CurrentCard);
             this.Controls.Add(this.Deal);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(546, 354);
+            this.MinimumSize = new System.Drawing.Size(546, 354);
             this.Name = "BlackJack";
             this.Text = "Blvck Jvck";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.BlackJack_FormClosing);
             this.Shown += new System.EventHandler(this.BlackJack_Shown);
             this.ResumeLayout(false);
             this.PerformLayout();

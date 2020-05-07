@@ -137,9 +137,11 @@
             this.Controls.Add(this.placeBets);
             this.Controls.Add(this.wheel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(436, 462);
+            this.MinimumSize = new System.Drawing.Size(436, 462);
             this.Name = "Roulette";
             this.Text = "Roulette";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Roulette_FormClosed);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Roulette_FormClosing);
             this.Shown += new System.EventHandler(this.Roulette_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.wheel)).EndInit();
             this.ResumeLayout(false);

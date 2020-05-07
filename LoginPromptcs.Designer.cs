@@ -139,10 +139,12 @@
             this.Controls.Add(this.pwd);
             this.Controls.Add(this.uname);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(384, 218);
+            this.MinimumSize = new System.Drawing.Size(384, 218);
             this.Name = "VirtualCasinoLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Login";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.VirtualCasinoLogin_FormClosed);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.VirtualCasinoLogin_FormClosing);
             this.Shown += new System.EventHandler(this.VirtualCasinoLogin_Shown);
             this.ResumeLayout(false);
             this.PerformLayout();

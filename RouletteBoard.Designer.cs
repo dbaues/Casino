@@ -844,6 +844,8 @@
             this.Controls.Add(this.button_0);
             this.Controls.Add(this.button_00);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(682, 325);
+            this.MinimumSize = new System.Drawing.Size(682, 325);
             this.Name = "RouletteBoard";
             this.Text = "Roulette Board";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.RouletteBoard_FormClosed);
