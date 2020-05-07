@@ -22,7 +22,7 @@ namespace Cards
         /// <param name="s">Appends a DateTime with string s.</param>
         protected void AppendLogFile(string s)
         {
-            using (StreamWriter sw = File.AppendText("Log.txt"))
+            using (StreamWriter sw = File.AppendText(MainMenu.LOG_FILE))
                 sw.WriteLine(String.Format("{0}: {1}", DateTime.Now, s));
         }
 

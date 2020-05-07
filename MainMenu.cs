@@ -25,6 +25,11 @@ namespace Cards
         public bool loggedIn;
         #endregion
 
+        #region Static Values
+        public static string ACCOUNT_FILE = (@"..\..\Text Files\acc.txt");
+        public static string LOG_FILE = (@"..\..\Text Files\Log.txt");
+        #endregion
+
         #region Constructor
         /// <summary>
         /// Initializes Main Form and other objects.
@@ -169,7 +174,7 @@ namespace Cards
             // Saves the "Active" user to the file (Not the guest "Player" account).
             if (!user.Username.Equals("Player"))
             {
-                using (StreamWriter sw = File.AppendText("acc.txt"))
+                using (StreamWriter sw = File.AppendText(MainMenu.ACCOUNT_FILE))
                     sw.WriteLine(user.WriteUser());
                 log.LogSignOut(user.Username);
             }
