@@ -1227,3 +1227,71 @@
 5/6/2020 11:10:51 PM: Opened Sign In Menu.
 5/6/2020 11:11:09 PM: Closed Sign In Menu.
 5/6/2020 11:11:15 PM: Opened Main Menu.
+5/7/2020 12:01:29 AM: Opened Main Menu.
+5/7/2020 12:01:34 AM: Opened Sign In Menu.
+5/7/2020 12:01:35 AM: Signed in as Guest.
+5/7/2020 12:01:35 AM: Closed Sign In Menu.
+5/7/2020 12:01:35 AM: Player has signed in.
+5/7/2020 12:01:36 AM: Opened Black Jack.
+5/7/2020 12:01:41 AM: Player has placed a bet of $50
+5/7/2020 12:01:42 AM: Black Jack has started.
+5/7/2020 12:01:42 AM: Black Jack has started.
+5/7/2020 12:01:44 AM: Closed Black Jack.
+5/7/2020 12:01:46 AM: Opened Sign In Menu.
+5/7/2020 12:01:55 AM: New account created, testuser
+5/7/2020 12:01:55 AM: Closed Sign In Menu.
+5/7/2020 12:01:55 AM: testuser has signed in.
+5/7/2020 12:01:58 AM: Opened Black Jack.
+5/7/2020 12:02:01 AM: Player has placed a bet of $5
+5/7/2020 12:02:03 AM: Closed Black Jack.
+5/7/2020 12:02:08 AM: Black Jack result: Player has won.
+5/7/2020 12:02:08 AM: Black Jack has started.
+5/7/2020 12:02:08 AM: Black Jack has started.
+5/7/2020 12:02:10 AM: Player has placed a bet of $5
+5/7/2020 12:02:11 AM: Black Jack has started.
+5/7/2020 12:02:11 AM: Black Jack has started.
+5/7/2020 12:02:13 AM: Black Jack result: Player has won.
+5/7/2020 12:02:17 AM: Player has placed a bet of $50
+5/7/2020 12:02:19 AM: Black Jack has started.
+5/7/2020 12:02:19 AM: Black Jack has started.
+5/7/2020 12:02:21 AM: Closed Black Jack.
+5/7/2020 12:02:23 AM: testuser has signed out.
+5/7/2020 12:02:24 AM: Opened Sign In Menu.
+5/7/2020 12:02:35 AM: Closed Sign In Menu.
+5/7/2020 12:02:35 AM: testuser has signed in.
+5/7/2020 12:02:36 AM: Opened Black Jack.
+5/7/2020 12:02:40 AM: Player has placed a bet of $50
+5/7/2020 12:02:40 AM: Black Jack has started.
+5/7/2020 12:02:40 AM: Black Jack has started.
+5/7/2020 12:02:42 AM: Black Jack result: Player has won.
+5/7/2020 12:02:44 AM: Closed Black Jack.
+5/7/2020 12:02:47 AM: Opened Roulette.
+5/7/2020 12:02:48 AM: Opened Roulette Board.
+5/7/2020 12:02:52 AM: Player has placed a bet of $10
+5/7/2020 12:02:52 AM: Bet place on Reds.
+5/7/2020 12:02:54 AM: Closed Roulette Board.
+5/7/2020 12:02:54 AM: Roulette has started.
+5/7/2020 12:03:06 AM: Roulette result: Player did not win.
+5/7/2020 12:03:52 AM: Opened Roulette Board.
+5/7/2020 12:03:59 AM: Player has placed a bet of $100
+5/7/2020 12:03:59 AM: Bet place on Reds.
+5/7/2020 12:04:01 AM: Closed Roulette Board.
+5/7/2020 12:04:02 AM: Roulette has started.
+5/7/2020 12:04:13 AM: Roulette result: Player has won $200.
+5/7/2020 12:04:21 AM: Closed Roulette.
+5/7/2020 12:04:32 AM: testuser has signed out.
+5/7/2020 12:04:32 AM: Opened Main Menu.
+5/7/2020 11:50:18 AM: Opened Main Menu.
+5/7/2020 11:50:19 AM: Opened Sign In Menu.
+5/7/2020 11:50:35 AM: New account created, @#!%6^ H
+5/7/2020 11:50:35 AM: Closed Sign In Menu.
+5/7/2020 11:50:35 AM: @#!%6^ H has signed in.
+5/7/2020 11:50:37 AM: Opened Roulette.
+5/7/2020 11:50:40 AM: Opened Roulette Board.
+5/7/2020 11:50:44 AM: Player has placed a bet of $100
+5/7/2020 11:50:44 AM: Bet place on Reds.
+5/7/2020 11:50:45 AM: Closed Roulette Board.
+5/7/2020 11:50:46 AM: Roulette has started.
+5/7/2020 11:50:55 AM: Roulette result: Player did not win.
+5/7/2020 11:51:57 AM: Closed Roulette.
+5/7/2020 11:52:01 AM: @#!%6^ H has signed out.
