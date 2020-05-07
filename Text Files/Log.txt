@@ -1185,3 +1185,45 @@
 5/6/2020 9:59:24 PM: Roulette result: Player has won $50.
 5/6/2020 9:59:38 PM: Closed Roulette.
 5/6/2020 9:59:40 PM: Opened Main Menu.
+5/6/2020 11:00:32 PM: Opened Main Menu.
+5/6/2020 11:00:38 PM: Opened Sign In Menu.
+5/6/2020 11:00:39 PM: Signed in as Guest.
+5/6/2020 11:00:39 PM: Closed Sign In Menu.
+5/6/2020 11:00:39 PM: Player has signed in.
+5/6/2020 11:00:41 PM: Opened Roulette.
+5/6/2020 11:00:45 PM: Opened Roulette Board.
+5/6/2020 11:00:52 PM: Player has placed a bet of $-300
+5/6/2020 11:00:52 PM: Bet place on 00.
+5/6/2020 11:01:02 PM: Player has placed a bet of $300
+5/6/2020 11:01:02 PM: Bet place on Reds.
+5/6/2020 11:01:09 PM: Closed Roulette Board.
+5/6/2020 11:01:10 PM: Opened Roulette Board.
+5/6/2020 11:01:11 PM: Closed Roulette Board.
+5/6/2020 11:01:12 PM: Roulette has started.
+5/6/2020 11:01:27 PM: Roulette result: Player has won $600.
+5/6/2020 11:02:09 PM: Closed Roulette.
+5/6/2020 11:02:12 PM: Opened Sign In Menu.
+5/6/2020 11:02:17 PM: Closed Sign In Menu.
+5/6/2020 11:02:17 PM: db has signed in.
+5/6/2020 11:02:19 PM: Opened Roulette.
+5/6/2020 11:02:20 PM: Opened Roulette Board.
+5/6/2020 11:02:25 PM: Player has placed a bet of $-5000
+5/6/2020 11:02:25 PM: Bet place on 00.
+5/6/2020 11:02:26 PM: Closed Roulette Board.
+5/6/2020 11:02:27 PM: Opened Roulette Board.
+5/6/2020 11:02:31 PM: Player has placed a bet of $400
+5/6/2020 11:02:31 PM: Bet place on Reds.
+5/6/2020 11:02:32 PM: Closed Roulette Board.
+5/6/2020 11:02:33 PM: Opened Roulette Board.
+5/6/2020 11:02:35 PM: Closed Roulette Board.
+5/6/2020 11:02:36 PM: Roulette has started.
+5/6/2020 11:02:48 PM: Roulette result: Player has won $800.
+5/6/2020 11:03:25 PM: Closed Roulette.
+5/6/2020 11:03:26 PM: db has signed out.
+5/6/2020 11:03:26 PM: Opened Main Menu.
+5/6/2020 11:10:17 PM: Opened Main Menu.
+5/6/2020 11:10:19 PM: Opened Sign In Menu.
+5/6/2020 11:10:49 PM: Opened Main Menu.
+5/6/2020 11:10:51 PM: Opened Sign In Menu.
+5/6/2020 11:11:09 PM: Closed Sign In Menu.
+5/6/2020 11:11:15 PM: Opened Main Menu.

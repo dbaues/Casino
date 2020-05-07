@@ -54,11 +54,14 @@ namespace Cards
         /// <summary>
         /// Adds a bet by getting the amount bet.
         /// </summary>
+        /// <remarks>Any non parsable ints will be set to default 1.</remarks>
+        /// <remarks>Negative signs will be ignored.</remarks>
         /// <param name="location">An Integer representing the board location.</param>
         private void PlaceBet(int location)
         {
             int betAmount;
-            try { betAmount = int.Parse(this.options.Text); }
+            // Negative sign will be ignored.
+            try { betAmount = Math.Abs(int.Parse(this.options.Text)); }
             catch (Exception) { betAmount = 1; }
             if (betAmount <= r.User.Bank)
             {

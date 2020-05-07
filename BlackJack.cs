@@ -114,6 +114,8 @@ namespace Cards
         /// <summary>
         /// Places the users bet.
         /// </summary>
+        /// <remarks>All non numeral bets are set to default 1.</remarks>
+        /// <remarks>Any negative signs will be ignored.</remarks>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void betBtn_Click(object sender, EventArgs e)
@@ -121,11 +123,14 @@ namespace Cards
             if (BetPlaced == false && user.Bank >= 1)
             {
                 // Gets the Bet amount.
-                try { Bet = int.Parse(BetOptions.Text); }
+                // Negative signs are ignored.
+                try { Bet = Math.Abs(int.Parse(BetOptions.Text)); }
                 catch (Exception) { Bet = 1; }
+
                 // Default bet.
                 if (BetOptions.Text.Equals(""))
                     BetOptions.Text = "1"; 
+
                 // Subtracts Bet from bank and places the bet.
                 if (Bet <= user.Bank)
                 {
