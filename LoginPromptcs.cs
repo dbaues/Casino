@@ -37,6 +37,8 @@ namespace Cards
             InitializeComponent();
             loggedIn = false;
             guestAccount = false;
+            username = "";
+            password = "";
             accounts = new List<User>();
             log = new SignInLog();
 
@@ -81,15 +83,19 @@ namespace Cards
             bool validUName = true;
             foreach(User u in accounts)
             {
+                // Searchs if Username is taken.
                 if (u.Username.Equals(username))
                     validUName = false;
             }
-            if (validUName)
+
+            if (validUName && (username.Length > 0 && password.Length > 0))
             {
                 accounts.Add(new User(username, password));
                 log.LogNewAccount(username);
                 confirmLogin_Click(sender, e);
             }
+            else if (username.Length == 0 || password.Length == 0)
+                text1.Text = "Entries cannot be blank.";
             else
                 text1.Text = "Username already taken.";
         }

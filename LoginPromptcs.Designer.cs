@@ -42,6 +42,7 @@
             // uname
             // 
             this.uname.Location = new System.Drawing.Point(17, 40);
+            this.uname.MaxLength = 24;
             this.uname.Name = "uname";
             this.uname.Size = new System.Drawing.Size(328, 22);
             this.uname.TabIndex = 0;

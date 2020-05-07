@@ -137,6 +137,7 @@ namespace Cards
             bets.Add(new Bet(money, location));
             if (location < 37 || location == RouletteBoard._00)
                 log.LogBet(money, location);
+
             // Half bets.
             // Colors.
             else if (location == RouletteBoard.REDS)
