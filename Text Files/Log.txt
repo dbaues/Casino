@@ -1394,3 +1394,22 @@
 5/7/2020 12:56:31 PM: View log file.
 5/7/2020 12:56:48 PM: admin has signed out.
 5/7/2020 12:56:48 PM: Opened Main Menu.
+5/7/2020 3:32:06 PM: Opened Main Menu.
+5/7/2020 3:32:07 PM: Opened Sign In Menu.
+5/7/2020 3:32:26 PM: Closed Sign In Menu.
+5/7/2020 3:32:28 PM: Opened Main Menu.
+5/7/2020 3:35:57 PM: Opened Main Menu.
+5/7/2020 3:35:59 PM: Opened Sign In Menu.
+5/7/2020 3:36:10 PM: New account created, testLINQ
+5/7/2020 3:36:10 PM: testLINQ has signed in.
+5/7/2020 3:36:10 PM: Closed Sign In Menu.
+5/7/2020 3:36:12 PM: Opened Roulette.
+5/7/2020 3:36:13 PM: Opened Roulette Board.
+5/7/2020 3:36:17 PM: Player has placed a bet of $10
+5/7/2020 3:36:17 PM: Bet place on Reds.
+5/7/2020 3:36:18 PM: Closed Roulette Board.
+5/7/2020 3:36:19 PM: Roulette has started.
+5/7/2020 3:36:28 PM: Roulette result: Player has won $20.
+5/7/2020 3:36:31 PM: Closed Roulette.
+5/7/2020 3:36:33 PM: testLINQ has signed out.
+5/7/2020 3:36:33 PM: Opened Main Menu.

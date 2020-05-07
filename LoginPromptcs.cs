@@ -68,12 +68,7 @@ namespace Cards
             username = username.Replace(" ", "");
 
             // Searches for the current username.
-            bool taken = false;
-            foreach (User u in accounts)
-            {
-                if (u.Username.Equals(username))
-                    taken = true;
-            }
+            bool taken = (from u in accounts select u.Username).ToArray().Contains(username);
 
             // Changes what the [ENTER] key will do.
             if(!taken) { this.AcceptButton = newAcct; }
@@ -98,12 +93,7 @@ namespace Cards
         private void newAcct_Click(object sender, EventArgs e)
         {
             // Searches if Username is taken.
-            bool validUName = true;
-            foreach(User u in accounts)
-            {
-                if (u.Username.Equals(username))
-                    validUName = false;
-            }
+            bool validUName = !(from u in accounts select u.Username).ToArray().Contains(username);
 
             // Validates username and password length.
             if (validUName && (username.Length > 0 && password.Length > 0))
@@ -212,7 +202,6 @@ namespace Cards
                         tmp = u;
                         continue;
                     }
-                    // Insert Account encryption later
                     sw.WriteLine(u.WriteUser());
                 }
             }

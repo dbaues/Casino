@@ -34,9 +34,9 @@ namespace Cards
                 0, 28, 9, 26, 30, 11, 7, 20, 32, 17, 5, 22, 34, 15, 3, 24, 36, 13, 1};
         public static int[] REDS = {1, 3, 5, 7, 9, 12, 14, 16, 18, 19, 21, 23, 25, 27, 30, 32, 34, 36};
         public static int[] BLACKS = {2, 4, 6, 8, 10, 11, 13, 15, 17, 20, 22, 24, 26, 28, 29, 31, 33, 35};
-        public static int[] TOP_ROW = (from e in Roulette.Order where e % 3 == 0 select e).ToArray();
+        public static int[] TOP_ROW = (from e in Roulette.Order where e % 3 == 0 && e != 0 select e).ToArray();
         public static int[] MID_ROW = (from e in Roulette.Order where e % 3 == 2 select e).ToArray();
-        public static int[] BOT_ROW = (from e in Roulette.Order where e % 3 == 1 select e).ToArray();
+        public static int[] BOT_ROW = (from e in Roulette.Order where e % 3 == 1 && e != 37 select e).ToArray();
         #endregion
 
         #region Properties
