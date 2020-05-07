@@ -35,20 +35,21 @@ namespace Cards
         {
             this.vc = m;
             InitializeComponent();
-            loggedIn = false;
-            guestAccount = false;
-            username = "";
-            password = "";
-            accounts = new List<User>();
-            log = new SignInLog();
+            this.loggedIn = false;
+            this.guestAccount = false;
+            this.username = "";
+            this.password = "";
+            this.accounts = new List<User>();
+            this.log = new SignInLog();
+            this.AcceptButton = guest;
 
+            // Loads all accounts into the List.
             using (StreamReader sr = new StreamReader(MainMenu.ACCOUNT_FILE))
             {
                 string line;
                 while ((line = sr.ReadLine()) != null)
                     accounts.Add(User.ReadUser(line));
             }
-            //accounts.Add(new User("db", "asdf"));
         }
         #endregion
 
@@ -56,11 +57,27 @@ namespace Cards
         /// <summary>
         /// Updates the username field.
         /// </summary>
+        /// <remarks>Spaces are ignored.</remarks>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void uname_TextChanged(object sender, EventArgs e)
         {
             username = uname.Text;
+
+            // Spaces are completely ignored from username.
+            username = username.Replace(" ", "");
+
+            // Searches for the current username.
+            bool taken = false;
+            foreach (User u in accounts)
+            {
+                if (u.Username.Equals(username))
+                    taken = true;
+            }
+
+            // Changes what the [ENTER] key will do.
+            if(!taken) { this.AcceptButton = newAcct; }
+            else { this.AcceptButton = confirmLogin; }
         }
 
         /// <summary>
@@ -80,14 +97,15 @@ namespace Cards
         /// <param name="e"></param>
         private void newAcct_Click(object sender, EventArgs e)
         {
+            // Searches if Username is taken.
             bool validUName = true;
             foreach(User u in accounts)
             {
-                // Searchs if Username is taken.
                 if (u.Username.Equals(username))
                     validUName = false;
             }
 
+            // Validates username and password length.
             if (validUName && (username.Length > 0 && password.Length > 0))
             {
                 accounts.Add(new User(username, password));
@@ -157,7 +175,6 @@ namespace Cards
         /// <param name="e"></param>
         private void VirtualCasinoLogin_FormClosing(object sender, FormClosingEventArgs e)
         {
-            log.LogExit();
             if (this.loggedIn)
             {
                 if (!guestAccount)
@@ -173,6 +190,7 @@ namespace Cards
                 e.Cancel = true;
                 this.Hide();
             }
+            log.LogExit();
         }
         #endregion
 
