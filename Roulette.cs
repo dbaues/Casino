@@ -73,7 +73,7 @@ namespace Cards
         private void button1_Click(object sender, EventArgs e)
         {
             log.LogStart();
-            int tmp = 38, sleepTime = 60;
+            int tmp = 38, sleepTime = 30;
             for (int k = 0; k < 5; k++)
             {
                 index = 0;
@@ -81,7 +81,7 @@ namespace Cards
                 {
                     UpdateText();
                     index++;
-                    Thread.Sleep(sleepTime);
+                    Thread.Sleep(sleepTime + (k * 10));
                 }
                 if(k == 3) 
                 { 
