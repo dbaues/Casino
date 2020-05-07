@@ -23,6 +23,7 @@ namespace Cards
         private int DWins, PWins;
         private bool Stood;
         private bool BetPlaced;
+        private bool GameStarted;
         private int Money;
         private int Bet;
         private User user;
@@ -67,6 +68,7 @@ namespace Cards
                 InitialDeal();
                 log.LogStart();
                 Stood = false;
+                GameStarted = true;
             }
         }
 
@@ -77,12 +79,13 @@ namespace Cards
         /// <param name="e"></param>
         private void Hit_Click(object sender, EventArgs e)
         {
-            if (!Stood)
+            if ((!Stood) && (GameStarted) && (!BetPlaced))
             {
                 DrawCard(Player);
                 if (Player.GetCount() > 21)
                 {
                     CurrentCard.Text = "Bust! Dealer Wins.";
+                    Stood = true;
                     DealerWin();
                 }
                 UpdateText();
@@ -96,7 +99,7 @@ namespace Cards
         /// <param name="e"></param>
         private void Stand_Click(object sender, EventArgs e)
         {
-            if (!Stood)
+            if ((!Stood) && (GameStarted))
             {
                 Stood = true;
                 BetPlaced = false;
@@ -258,6 +261,7 @@ namespace Cards
                 CurrentCard.Text = "Dealer Wins.";
                 DealerWin();
             }
+            //BlankSlateProtocol();
             UpdateText();
         }
 
@@ -272,6 +276,7 @@ namespace Cards
             Player = new Hand(false);
             Stood = false;
             BetPlaced = false;
+            GameStarted = false;
             //Bet = 0;
         }
         #endregion

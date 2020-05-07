@@ -1413,3 +1413,237 @@
 5/7/2020 3:36:31 PM: Closed Roulette.
 5/7/2020 3:36:33 PM: testLINQ has signed out.
 5/7/2020 3:36:33 PM: Opened Main Menu.
+5/7/2020 3:48:58 PM: Opened Main Menu.
+5/7/2020 3:49:00 PM: Opened Sign In Menu.
+5/7/2020 3:49:06 PM: db has signed in.
+5/7/2020 3:49:06 PM: Closed Sign In Menu.
+5/7/2020 3:49:07 PM: Opened Roulette.
+5/7/2020 3:49:12 PM: Opened Roulette Board.
+5/7/2020 3:49:16 PM: Player has placed a bet of $500
+5/7/2020 3:49:16 PM: Bet place on Reds.
+5/7/2020 3:49:17 PM: Closed Roulette Board.
+5/7/2020 3:49:18 PM: Roulette has started.
+5/7/2020 3:49:29 PM: Roulette result: Player did not win.
+5/7/2020 3:49:36 PM: Closed Roulette.
+5/7/2020 3:49:41 PM: db has signed out.
+5/7/2020 3:49:42 PM: Opened Main Menu.
+5/7/2020 3:57:46 PM: Opened Main Menu.
+5/7/2020 3:57:48 PM: Opened Sign In Menu.
+5/7/2020 3:57:54 PM: admin has signed in.
+5/7/2020 3:57:54 PM: Admin privileges granted.
+5/7/2020 3:57:54 PM: Closed Sign In Menu.
+5/7/2020 3:57:56 PM: View log file.
+5/7/2020 3:58:01 PM: Opened Black Jack.
+5/7/2020 3:58:06 PM: Player has placed a bet of $12
+5/7/2020 3:58:07 PM: Black Jack has started.
+5/7/2020 3:58:07 PM: Black Jack has started.
+5/7/2020 3:58:09 PM: Black Jack result: Dealer has won.
+5/7/2020 3:58:12 PM: Player has placed a bet of $12
+5/7/2020 3:58:13 PM: Black Jack result: Player has won.
+5/7/2020 3:58:13 PM: Black Jack has started.
+5/7/2020 3:58:13 PM: Black Jack has started.
+5/7/2020 3:58:24 PM: Player has placed a bet of $1
+5/7/2020 3:58:25 PM: Black Jack has started.
+5/7/2020 3:58:25 PM: Black Jack has started.
+5/7/2020 3:58:27 PM: Black Jack result: Dealer has won.
+5/7/2020 3:58:28 PM: Player has placed a bet of $1
+5/7/2020 3:58:29 PM: Black Jack has started.
+5/7/2020 3:58:29 PM: Black Jack has started.
+5/7/2020 3:58:32 PM: Black Jack result: Dealer has won.
+5/7/2020 3:58:34 PM: Player has placed a bet of $1
+5/7/2020 3:58:35 PM: Black Jack has started.
+5/7/2020 3:58:35 PM: Black Jack has started.
+5/7/2020 3:58:36 PM: Black Jack result: Dealer has won.
+5/7/2020 3:58:38 PM: Player has placed a bet of $1
+5/7/2020 3:58:39 PM: Black Jack has started.
+5/7/2020 3:58:39 PM: Black Jack has started.
+5/7/2020 3:58:44 PM: Black Jack result: Dealer has won.
+5/7/2020 3:58:46 PM: Player has placed a bet of $1
+5/7/2020 3:58:46 PM: Black Jack has started.
+5/7/2020 3:58:46 PM: Black Jack has started.
+5/7/2020 3:58:49 PM: Black Jack result: Player has won.
+5/7/2020 3:58:55 PM: Player has placed a bet of $2
+5/7/2020 3:58:56 PM: Black Jack has started.
+5/7/2020 3:58:56 PM: Black Jack has started.
+5/7/2020 3:58:57 PM: Black Jack result: Player has won.
+5/7/2020 3:59:01 PM: Player has placed a bet of $2
+5/7/2020 3:59:01 PM: Black Jack has started.
+5/7/2020 3:59:01 PM: Black Jack has started.
+5/7/2020 3:59:03 PM: Black Jack result: Dealer has won.
+5/7/2020 3:59:04 PM: Player has placed a bet of $2
+5/7/2020 3:59:05 PM: Black Jack has started.
+5/7/2020 3:59:05 PM: Black Jack has started.
+5/7/2020 3:59:07 PM: Black Jack result: Dealer has won.
+5/7/2020 3:59:11 PM: Player has placed a bet of $5
+5/7/2020 3:59:12 PM: Black Jack has started.
+5/7/2020 3:59:12 PM: Black Jack has started.
+5/7/2020 3:59:17 PM: Black Jack result: Dealer has won.
+5/7/2020 3:59:24 PM: Player has placed a bet of $90
+5/7/2020 3:59:24 PM: Black Jack has started.
+5/7/2020 3:59:24 PM: Black Jack has started.
+5/7/2020 3:59:35 PM: Black Jack result: Dealer has won.
+5/7/2020 3:59:37 PM: Closed Black Jack.
+5/7/2020 3:59:44 PM: admin has signed out.
+5/7/2020 3:59:44 PM: Opened Main Menu.
+5/7/2020 4:00:22 PM: Opened Main Menu.
+5/7/2020 4:00:23 PM: Opened Sign In Menu.
+5/7/2020 4:00:23 PM: Signed in as Guest.
+5/7/2020 4:00:23 PM: Player has signed in.
+5/7/2020 4:00:23 PM: Closed Sign In Menu.
+5/7/2020 4:00:25 PM: Opened Black Jack.
+5/7/2020 4:00:29 PM: Player has placed a bet of $2
+5/7/2020 4:00:31 PM: Black Jack has started.
+5/7/2020 4:00:31 PM: Black Jack has started.
+5/7/2020 4:00:32 PM: Black Jack result: Push.
+5/7/2020 4:00:35 PM: Closed Black Jack.
+5/7/2020 4:00:36 PM: Opened Main Menu.
+5/7/2020 4:02:39 PM: Opened Main Menu.
+5/7/2020 4:02:44 PM: Opened Sign In Menu.
+5/7/2020 4:02:45 PM: Signed in as Guest.
+5/7/2020 4:02:45 PM: Player has signed in.
+5/7/2020 4:02:45 PM: Closed Sign In Menu.
+5/7/2020 4:02:50 PM: Opened Black Jack.
+5/7/2020 4:03:01 PM: Opened Roulette.
+5/7/2020 4:03:34 PM: Opened Main Menu.
+5/7/2020 4:03:35 PM: Opened Sign In Menu.
+5/7/2020 4:03:40 PM: Signed in as Guest.
+5/7/2020 4:03:40 PM: Player has signed in.
+5/7/2020 4:03:40 PM: Closed Sign In Menu.
+5/7/2020 4:03:42 PM: Opened Black Jack.
+5/7/2020 4:05:06 PM: Opened Main Menu.
+5/7/2020 4:05:07 PM: Opened Sign In Menu.
+5/7/2020 4:05:08 PM: Signed in as Guest.
+5/7/2020 4:05:08 PM: Player has signed in.
+5/7/2020 4:05:08 PM: Closed Sign In Menu.
+5/7/2020 4:05:09 PM: Opened Black Jack.
+5/7/2020 4:05:18 PM: Player has placed a bet of $25
+5/7/2020 4:10:44 PM: Opened Main Menu.
+5/7/2020 4:10:46 PM: Opened Sign In Menu.
+5/7/2020 4:10:46 PM: Signed in as Guest.
+5/7/2020 4:10:46 PM: Player has signed in.
+5/7/2020 4:10:46 PM: Closed Sign In Menu.
+5/7/2020 4:10:47 PM: Opened Black Jack.
+5/7/2020 4:10:50 PM: Player has placed a bet of $50
+5/7/2020 4:10:53 PM: Black Jack has started.
+5/7/2020 4:10:53 PM: Black Jack has started.
+5/7/2020 4:11:26 PM: Closed Black Jack.
+5/7/2020 4:11:28 PM: Opened Main Menu.
+5/7/2020 4:12:21 PM: Opened Main Menu.
+5/7/2020 4:12:22 PM: Opened Sign In Menu.
+5/7/2020 4:12:23 PM: Signed in as Guest.
+5/7/2020 4:12:23 PM: Player has signed in.
+5/7/2020 4:12:23 PM: Closed Sign In Menu.
+5/7/2020 4:12:24 PM: Opened Black Jack.
+5/7/2020 4:12:27 PM: Player has placed a bet of $50
+5/7/2020 4:12:28 PM: Black Jack has started.
+5/7/2020 4:12:28 PM: Black Jack has started.
+5/7/2020 4:12:31 PM: Black Jack result: Player has won.
+5/7/2020 4:13:46 PM: Opened Main Menu.
+5/7/2020 4:13:48 PM: Opened Sign In Menu.
+5/7/2020 4:13:49 PM: Signed in as Guest.
+5/7/2020 4:13:49 PM: Player has signed in.
+5/7/2020 4:13:49 PM: Closed Sign In Menu.
+5/7/2020 4:13:51 PM: Opened Black Jack.
+5/7/2020 4:13:53 PM: Player has placed a bet of $50
+5/7/2020 4:13:59 PM: Black Jack has started.
+5/7/2020 4:13:59 PM: Black Jack has started.
+5/7/2020 4:14:03 PM: Closed Black Jack.
+5/7/2020 4:14:04 PM: Opened Main Menu.
+5/7/2020 4:14:50 PM: Opened Main Menu.
+5/7/2020 4:14:51 PM: Opened Sign In Menu.
+5/7/2020 4:14:52 PM: Signed in as Guest.
+5/7/2020 4:14:52 PM: Player has signed in.
+5/7/2020 4:14:52 PM: Closed Sign In Menu.
+5/7/2020 4:14:53 PM: Opened Black Jack.
+5/7/2020 4:14:56 PM: Player has placed a bet of $50
+5/7/2020 4:14:58 PM: Black Jack has started.
+5/7/2020 4:14:58 PM: Black Jack has started.
+5/7/2020 4:15:07 PM: Closed Black Jack.
+5/7/2020 4:15:09 PM: Opened Main Menu.
+5/7/2020 4:15:39 PM: Opened Main Menu.
+5/7/2020 4:15:40 PM: Opened Sign In Menu.
+5/7/2020 4:15:41 PM: Signed in as Guest.
+5/7/2020 4:15:41 PM: Player has signed in.
+5/7/2020 4:15:41 PM: Closed Sign In Menu.
+5/7/2020 4:15:42 PM: Opened Black Jack.
+5/7/2020 4:15:45 PM: Player has placed a bet of $10
+5/7/2020 4:15:45 PM: Black Jack result: Player has won.
+5/7/2020 4:15:45 PM: Black Jack has started.
+5/7/2020 4:15:45 PM: Black Jack has started.
+5/7/2020 4:15:47 PM: Player has placed a bet of $10
+5/7/2020 4:15:48 PM: Black Jack result: Player has won.
+5/7/2020 4:15:48 PM: Black Jack has started.
+5/7/2020 4:15:48 PM: Black Jack has started.
+5/7/2020 4:15:49 PM: Player has placed a bet of $10
+5/7/2020 4:15:50 PM: Black Jack has started.
+5/7/2020 4:15:50 PM: Black Jack has started.
+5/7/2020 4:15:51 PM: Black Jack result: Player has won.
+5/7/2020 4:15:53 PM: Player has placed a bet of $10
+5/7/2020 4:15:53 PM: Black Jack has started.
+5/7/2020 4:15:53 PM: Black Jack has started.
+5/7/2020 4:15:56 PM: Black Jack result: Dealer has won.
+5/7/2020 4:15:59 PM: Player has placed a bet of $10
+5/7/2020 4:16:00 PM: Black Jack result: Dealer has won.
+5/7/2020 4:16:04 PM: Player has placed a bet of $10
+5/7/2020 4:16:05 PM: Black Jack result: Player has won.
+5/7/2020 4:16:05 PM: Black Jack has started.
+5/7/2020 4:16:05 PM: Black Jack has started.
+5/7/2020 4:16:07 PM: Player has placed a bet of $10
+5/7/2020 4:16:07 PM: Black Jack has started.
+5/7/2020 4:16:07 PM: Black Jack has started.
+5/7/2020 4:16:09 PM: Black Jack result: Player has won.
+5/7/2020 4:16:11 PM: Player has placed a bet of $10
+5/7/2020 4:16:14 PM: Black Jack result: Dealer has won.
+5/7/2020 4:16:14 PM: Black Jack result: Dealer has won.
+5/7/2020 4:16:14 PM: Black Jack result: Dealer has won.
+5/7/2020 4:16:17 PM: Black Jack result: Dealer has won.
+5/7/2020 4:16:21 PM: Closed Black Jack.
+5/7/2020 4:16:23 PM: Opened Main Menu.
+5/7/2020 4:17:25 PM: Opened Main Menu.
+5/7/2020 4:17:26 PM: Opened Sign In Menu.
+5/7/2020 4:17:27 PM: Signed in as Guest.
+5/7/2020 4:17:27 PM: Player has signed in.
+5/7/2020 4:17:27 PM: Closed Sign In Menu.
+5/7/2020 4:17:28 PM: Opened Black Jack.
+5/7/2020 4:17:30 PM: Player has placed a bet of $1
+5/7/2020 4:17:32 PM: Black Jack has started.
+5/7/2020 4:17:32 PM: Black Jack has started.
+5/7/2020 4:17:37 PM: Closed Black Jack.
+5/7/2020 4:17:39 PM: Opened Main Menu.
+5/7/2020 4:19:12 PM: Opened Main Menu.
+5/7/2020 4:19:14 PM: Opened Sign In Menu.
+5/7/2020 4:19:14 PM: Signed in as Guest.
+5/7/2020 4:19:14 PM: Player has signed in.
+5/7/2020 4:19:14 PM: Closed Sign In Menu.
+5/7/2020 4:19:16 PM: Opened Black Jack.
+5/7/2020 4:19:21 PM: Player has placed a bet of $1
+5/7/2020 4:19:23 PM: Black Jack has started.
+5/7/2020 4:19:23 PM: Black Jack has started.
+5/7/2020 4:19:24 PM: Black Jack result: Dealer has won.
+5/7/2020 4:19:25 PM: Black Jack result: Dealer has won.
+5/7/2020 4:19:25 PM: Black Jack result: Dealer has won.
+5/7/2020 4:19:25 PM: Black Jack result: Dealer has won.
+5/7/2020 4:19:25 PM: Black Jack result: Dealer has won.
+5/7/2020 4:19:26 PM: Black Jack result: Player has won.
+5/7/2020 4:19:31 PM: Closed Black Jack.
+5/7/2020 4:19:32 PM: Opened Main Menu.
+5/7/2020 4:19:57 PM: Opened Main Menu.
+5/7/2020 4:19:59 PM: Opened Sign In Menu.
+5/7/2020 4:19:59 PM: Signed in as Guest.
+5/7/2020 4:19:59 PM: Player has signed in.
+5/7/2020 4:19:59 PM: Closed Sign In Menu.
+5/7/2020 4:20:01 PM: Opened Black Jack.
+5/7/2020 4:20:05 PM: Player has placed a bet of $1
+5/7/2020 4:20:08 PM: Black Jack has started.
+5/7/2020 4:20:08 PM: Black Jack has started.
+5/7/2020 4:20:10 PM: Black Jack result: Player has won.
+5/7/2020 4:20:12 PM: Player has placed a bet of $1
+5/7/2020 4:20:13 PM: Black Jack has started.
+5/7/2020 4:20:13 PM: Black Jack has started.
+5/7/2020 4:20:14 PM: Black Jack result: Dealer has won.
+5/7/2020 4:20:17 PM: Player has placed a bet of $1
+5/7/2020 4:20:18 PM: Black Jack has started.
+5/7/2020 4:20:18 PM: Black Jack has started.
+5/7/2020 4:20:20 PM: Black Jack result: Player has won.
+5/7/2020 4:20:23 PM: Closed Black Jack.
+5/7/2020 4:20:25 PM: Opened Main Menu.
