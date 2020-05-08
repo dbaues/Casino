@@ -28,6 +28,7 @@ namespace Cards
         private int Bet;
         private User user;
         private BlackJackLog log;
+        private bool _active;
         #endregion
 
         #region Properties
@@ -36,6 +37,7 @@ namespace Cards
             get { return user; }
             set { user = value; } 
         }
+        public bool Active { get { return _active; } }
         #endregion
 
         #region Constructor
@@ -160,6 +162,7 @@ namespace Cards
             log.LogExit();
             e.Cancel = true;
             this.Hide();
+            this._active = false;
         }
 
         /// <summary>
@@ -173,7 +176,7 @@ namespace Cards
             PlayerName.Text = user.Username;
             Money = User.Bank;
             Bank.Text = Money.ToString();
-            //UpdateText();
+            this._active = true;
         }
         #endregion
 
@@ -206,7 +209,7 @@ namespace Cards
                 DealerWin();
             }
             UpdateText();
-            log.LogStart();
+            //log.LogStart();
         }
 
         /// <summary>

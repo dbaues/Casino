@@ -847,6 +847,7 @@
             this.MaximumSize = new System.Drawing.Size(682, 325);
             this.MinimumSize = new System.Drawing.Size(682, 325);
             this.Name = "RouletteBoard";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Roulette Board";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.RouletteBoard_FormClosed);
             this.Shown += new System.EventHandler(this.RouletteBoard_Shown);

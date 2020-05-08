@@ -252,6 +252,7 @@
             this.MaximumSize = new System.Drawing.Size(546, 354);
             this.MinimumSize = new System.Drawing.Size(546, 354);
             this.Name = "BlackJack";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Blvck Jvck";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.BlackJack_FormClosing);
             this.Shown += new System.EventHandler(this.BlackJack_Shown);
