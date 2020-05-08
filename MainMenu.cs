@@ -51,7 +51,7 @@ namespace Cards
         /// <param name="e"></param>
         private void blackjack_Click(object sender, EventArgs e)
         {
-            if (loggedIn)
+            if (loggedIn && (!r.Active) && (!bj.Active))
             {
                 bj.User = user;
                 bj.Show();
@@ -65,7 +65,7 @@ namespace Cards
         /// <param name="e"></param>
         private void roulette_Click(object sender, EventArgs e)
         {
-            if (loggedIn)
+            if (loggedIn && (!r.Active) && (!bj.Active))
             {
                 r.User = user;
                 r.Show();
@@ -79,6 +79,7 @@ namespace Cards
         /// <param name="e"></param>
         private void login_Click(object sender, EventArgs e)
         {
+            if(r.Active || bj.Active) { return; }
             if (!loggedIn)
                 Login();
             else

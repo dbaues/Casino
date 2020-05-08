@@ -144,7 +144,7 @@
             this.MaximumSize = new System.Drawing.Size(384, 218);
             this.MinimumSize = new System.Drawing.Size(384, 218);
             this.Name = "VirtualCasinoLogin";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.VirtualCasinoLogin_FormClosing);
             this.Shown += new System.EventHandler(this.VirtualCasinoLogin_Shown);

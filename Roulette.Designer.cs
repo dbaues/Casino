@@ -116,10 +116,10 @@
             this.playerName.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.playerName.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.playerName.ForeColor = System.Drawing.Color.DarkRed;
-            this.playerName.Location = new System.Drawing.Point(287, 10);
+            this.playerName.Location = new System.Drawing.Point(300, 10);
             this.playerName.Name = "playerName";
             this.playerName.ReadOnly = true;
-            this.playerName.Size = new System.Drawing.Size(125, 24);
+            this.playerName.Size = new System.Drawing.Size(112, 24);
             this.playerName.TabIndex = 7;
             this.playerName.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -140,6 +140,7 @@
             this.MaximumSize = new System.Drawing.Size(436, 462);
             this.MinimumSize = new System.Drawing.Size(436, 462);
             this.Name = "Roulette";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Roulette";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Roulette_FormClosing);
             this.Shown += new System.EventHandler(this.Roulette_Shown);

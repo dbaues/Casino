@@ -135,6 +135,7 @@
             this.MaximumSize = new System.Drawing.Size(293, 278);
             this.MinimumSize = new System.Drawing.Size(293, 278);
             this.Name = "MainMenu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Virtual Casino";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainMenu_FormClosed);
             this.ResumeLayout(false);

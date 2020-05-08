@@ -23,6 +23,7 @@ namespace Cards
         public List<Bet> bets;
         public List<int> history;
         public bool BoardOpen;
+        private bool _active;
         private RouletteLog log;
         private User _user;
         private int index;
@@ -41,6 +42,7 @@ namespace Cards
 
         #region Properties
         public User User { get { return _user; } set { this._user = value; } }
+        public bool Active { get { return _active; } }
         #endregion
 
         #region Constructor
@@ -73,11 +75,11 @@ namespace Cards
         private void button1_Click(object sender, EventArgs e)
         {
             log.LogStart();
-            int tmp = 38, sleepTime = 30;
+            int tmp = 37, sleepTime = 30;
             for (int k = 0; k < 5; k++)
             {
                 index = 0;
-                for (int j = 0; j < tmp; j++)
+                for (int j = 0; j <= tmp; j++)
                 {
                     UpdateText();
                     index++;
@@ -85,10 +87,12 @@ namespace Cards
                 }
                 if(k == 3) 
                 { 
+                    // Picks the winning number.
                     tmp = new Random().Next(0, 38);
                     sleepTime = 100;
                 }
             }
+            // Result.
             index--;
             this.history.Add(Order[index]);
             if (Order[index] == 37) { this.result.Text = "00"; }
@@ -110,6 +114,7 @@ namespace Cards
             }
             catch (Exception) { }
             log.LogOpen();
+            this._active = true;
         }
 
         /// <summary>
@@ -122,6 +127,7 @@ namespace Cards
             log.LogExit();
             e.Cancel = true;
             this.Hide();
+            this._active = false;
         }
         #endregion
 
